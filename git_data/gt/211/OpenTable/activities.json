@@ -1,0 +1,26 @@
+[
+    [
+        "com.opentable",
+        "com.opentable.bottomnavigationhome.BottomNavigationHomeActivity"
+    ],
+    [
+        "com.opentable",
+        "com.opentable.bottomnavigationhome.BottomNavigationHomeActivity"
+    ],
+    [
+        "com.opentable",
+        "com.opentable.bottomnavigationhome.BottomNavigationHomeActivity"
+    ],
+    [
+        "com.opentable",
+        "com.opentable.activities.settings.SettingsActivity"
+    ],
+    [
+        "com.opentable",
+        "com.opentable.activities.about.AboutActivity"
+    ],
+    [
+        "com.opentable",
+        "com.opentable.activities.GenericWebViewActivity"
+    ]
+]

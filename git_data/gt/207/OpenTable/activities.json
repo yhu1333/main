@@ -1,0 +1,34 @@
+[
+    [
+        "com.opentable",
+        "com.opentable.bottomnavigationhome.BottomNavigationHomeActivity"
+    ],
+    [
+        "com.opentable",
+        "com.opentable.bottomnavigationhome.BottomNavigationHomeActivity"
+    ],
+    [
+        "com.opentable",
+        "com.opentable.restaurant.NewRestaurantProfileActivity"
+    ],
+    [
+        "com.opentable",
+        "com.opentable.restaurant.NewRestaurantProfileActivity"
+    ],
+    [
+        "com.opentable",
+        "com.opentable.restaurant.NewRestaurantProfileActivity"
+    ],
+    [
+        "com.opentable",
+        "com.opentable.confirmation.ConfirmationActivity"
+    ],
+    [
+        "com.opentable",
+        "com.opentable.confirmation.ConfirmationActivity"
+    ],
+    [
+        "com.opentable",
+        "com.opentable.activities.reservation.ReservationDetailsActivity"
+    ]
+]

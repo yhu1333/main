@@ -1,0 +1,22 @@
+[
+    [
+        "com.google.android.apps.nexuslauncher",
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity"
+    ],
+    [
+        "com.google.android.apps.nexuslauncher",
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity"
+    ],
+    [
+        "com.google.android.calendar",
+        "com.google.android.calendar.launch.oobe.WhatsNewFullScreen"
+    ],
+    [
+        "com.google.android.calendar",
+        "com.google.android.calendar.AllInOneCalendarActivity"
+    ],
+    [
+        "com.google.android.apps.nexuslauncher",
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity"
+    ]
+]

@@ -1,0 +1,22 @@
+[
+    [
+        "com.opentable",
+        "com.opentable.bottomnavigationhome.BottomNavigationHomeActivity"
+    ],
+    [
+        "com.opentable",
+        "com.opentable.activities.reservation.ReservationDetailsActivity"
+    ],
+    [
+        "com.opentable",
+        "com.opentable.activities.reservation.ReservationDetailsActivity"
+    ],
+    [
+        "com.opentable",
+        "com.opentable.activities.reservation.ReservationDetailsActivity"
+    ],
+    [
+        "com.opentable",
+        "com.opentable.activities.reservation.ReservationDetailsActivity"
+    ]
+]
