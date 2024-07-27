@@ -1,0 +1,163 @@
+[
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "aaui_099_202211 ",
+            "class": "android.widget.TextView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[194,1325][567,1387]",
+            "resource-id": "com.tencent.mm:id/nickname_tv",
+            "_cache_id": "142178046"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "1",
+            "text": "Send Message",
+            "class": "android.widget.TextView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[433,1469][733,1531]",
+            "resource-id": "com.tencent.mm:id/text",
+            "_cache_id": "267253741"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "",
+            "class": "android.widget.ImageButton",
+            "package": "com.tencent.mm",
+            "content-desc": "Hide more function buttons",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "true",
+            "enabled": "true",
+            "focusable": "true",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[972,1802][1058,1888]",
+            "resource-id": "com.tencent.mm:id/chatting_attach_btn",
+            "_cache_id": "205958940"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "1",
+            "text": "Camera",
+            "class": "android.widget.TextView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[359,1506][469,1549]",
+            "resource-id": "com.tencent.mm:id/app_grid_item_name",
+            "_cache_id": "152763683"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "",
+            "class": "android.widget.ImageView",
+            "package": "com.tencent.mm",
+            "content-desc": "Switch to front camera",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "true",
+            "enabled": "true",
+            "focusable": "true",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[842,1658][923,1739]",
+            "resource-id": "com.tencent.mm:id/switch_camera",
+            "_cache_id": "203295145"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "1",
+            "text": "",
+            "class": "android.view.View",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[453,1612][626,1785]",
+            "resource-id": "com.tencent.mm:id/inner",
+            "_cache_id": "15046116"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "1",
+            "text": "Done",
+            "class": "android.widget.Button",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "true",
+            "enabled": "true",
+            "focusable": "true",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[799,1634][1015,1764]",
+            "resource-id": "com.tencent.mm:id/editor_mix",
+            "_cache_id": "83646265"
+        }
+    }
+]

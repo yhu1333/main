@@ -1,0 +1,535 @@
+{
+    "seq_name": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment",
+    "doc": "@Author:v_yxlinou\n开播页设置关闭评论\n",
+    "zh_sequence": [
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/00_before_xml_8012871.xml",
+            "img": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/00_before_img_8013120.jpg",
+            "statement": "self.device.click_on_point(target_x, target_y)",
+            "operation": {
+                "action": "click_on_point",
+                "widget": {},
+                "args": [
+                    675.0,
+                    1882.5
+                ],
+                "kwargs": {},
+                "x": 675.0,
+                "y": 1882.5,
+                "locator": {}
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/01_before_xml_8013368.xml",
+            "img": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/01_before_img_8013609.jpg",
+            "statement": "self.e.text(u\"视频号\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 151,
+                    "y": 421,
+                    "w": 138,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "android:id/title",
+                        "resource-id": "android:id/title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "视频号",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            151,
+                            421,
+                            289,
+                            483
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.finder.ui.FinderHomeAffinityUI",
+            "xml": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/02_before_xml_8013812.xml",
+            "img": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/02_before_img_8013920.jpg",
+            "statement": "self.e.rid('com.tencent.mm:id/personalCenter').click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 939,
+                    "y": 68,
+                    "w": 118,
+                    "h": 118
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/personalCenter",
+                        "resource-id": "com.tencent.mm:id/personalCenter",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "浏览设置",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            939,
+                            68,
+                            1057,
+                            186
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.finder.ui.FinderSelfUI",
+            "xml": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/03_before_xml_8014064.xml",
+            "img": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/03_before_img_8014240.jpg",
+            "statement": "self.e.text(u\"发起直播\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 696,
+                    "y": 1748,
+                    "w": 184,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/finder_live_post_new_feed",
+                        "resource-id": "com.tencent.mm:id/finder_live_post_new_feed",
+                        "index": 2,
+                        "class": "android.widget.TextView",
+                        "text": "发起直播",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            696,
+                            1748,
+                            880,
+                            1810
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.finder.ui.FinderSelfUI",
+            "xml": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/04_before_xml_8014461.xml",
+            "img": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/04_before_img_8014577.jpg",
+            "statement": "self.e.text(u\"直播\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 494,
+                    "y": 1487,
+                    "w": 92,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/title",
+                        "resource-id": "com.tencent.mm:id/title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "直播",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            494,
+                            1487,
+                            586,
+                            1549
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.finder.feed.ui.FinderLiveAnchorAffinityUI",
+            "xml": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/05_before_xml_8014769.xml",
+            "img": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/05_before_img_8014905.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/finder_live_post_input_hint_container\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 270,
+                    "y": 1309,
+                    "w": 745,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/finder_live_post_input_hint_container",
+                        "resource-id": "com.tencent.mm:id/finder_live_post_input_hint_container",
+                        "index": 0,
+                        "class": "android.widget.FrameLayout",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            270,
+                            1309,
+                            1015,
+                            1371
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.finder.feed.ui.FinderLiveAnchorAffinityUI",
+            "xml": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/06_before_xml_8015168.xml",
+            "img": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/06_before_img_8015262.jpg",
+            "statement": "self.e.rid('com.tencent.mm:id/liveAnnouncementEt').enter('1')",
+            "operation": {
+                "action": "enter",
+                "widget": {
+                    "x": 43,
+                    "y": 287,
+                    "w": 994,
+                    "h": 1590
+                },
+                "args": [
+                    "1"
+                ],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/liveAnnouncementEt",
+                        "resource-id": "com.tencent.mm:id/liveAnnouncementEt",
+                        "index": 0,
+                        "class": "android.widget.EditText",
+                        "text": "填写直播主题，吸引更多观众",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": true,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            43,
+                            287,
+                            1037,
+                            1877
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.finder.feed.ui.FinderLiveAnchorAffinityUI",
+            "xml": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/07_before_xml_8015468.xml",
+            "img": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/07_before_img_8015650.jpg",
+            "statement": "self.e.rid('com.tencent.mm:id/liveAnnouncementTitleFinishTv').click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 881,
+                    "y": 103,
+                    "w": 156,
+                    "h": 86
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/liveAnnouncementTitleFinishTv",
+                        "resource-id": "com.tencent.mm:id/liveAnnouncementTitleFinishTv",
+                        "index": 2,
+                        "class": "android.widget.TextView",
+                        "text": "完成",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            881,
+                            103,
+                            1037,
+                            189
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.finder.feed.ui.FinderLiveAnchorAffinityUI",
+            "xml": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/08_before_xml_8015861.xml",
+            "img": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/08_before_img_8016010.jpg",
+            "statement": "self.e.text(u\"更多\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 936,
+                    "y": 1661,
+                    "w": 64,
+                    "h": 43
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/finder_live_before_camera_opt_item_tv",
+                        "resource-id": "com.tencent.mm:id/finder_live_before_camera_opt_item_tv",
+                        "index": 1,
+                        "class": "android.widget.TextView",
+                        "text": "更多",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            936,
+                            1661,
+                            1000,
+                            1704
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.finder.feed.ui.FinderLiveAnchorAffinityUI",
+            "xml": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/09_before_xml_8016168.xml",
+            "img": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/09_before_img_8016286.jpg",
+            "statement": "self.e.text(u\"评论管理\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 850,
+                    "y": 1499,
+                    "w": 151,
+                    "h": 86
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/title",
+                        "resource-id": "com.tencent.mm:id/title",
+                        "index": 1,
+                        "class": "android.widget.TextView",
+                        "text": "评论管理",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            850,
+                            1499,
+                            1001,
+                            1585
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.finder.feed.ui.FinderLiveAnchorAffinityUI",
+            "xml": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/10_before_xml_8016564.xml",
+            "img": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/10_before_img_8016811.jpg",
+            "statement": "self.e.rid('com.tencent.mm:id/switch_btn_comment').click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 856,
+                    "y": 997,
+                    "w": 138,
+                    "h": 84
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/switch_btn_comment",
+                        "resource-id": "com.tencent.mm:id/switch_btn_comment",
+                        "index": 1,
+                        "class": "android.view.View",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            856,
+                            997,
+                            994,
+                            1081
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.finder.feed.ui.FinderLiveAnchorAffinityUI",
+            "xml": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/11_before_xml_8016935.xml",
+            "img": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/11_before_img_8017123.jpg",
+            "statement": "self.e.rid('com.tencent.mm:id/finder_live_left_btn').click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 51,
+                    "y": 830,
+                    "w": 49,
+                    "h": 49
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/finder_live_left_btn",
+                        "resource-id": "com.tencent.mm:id/finder_live_left_btn",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            51,
+                            830,
+                            100,
+                            879
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.finder.feed.ui.FinderLiveAnchorAffinityUI",
+            "xml": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/12_before_xml_8017368.xml",
+            "img": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/12_before_img_8017509.jpg",
+            "statement": "self.e.rid('com.tencent.mm:id/finder_live_post_top_close').click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 43,
+                    "y": 114,
+                    "w": 76,
+                    "h": 76
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/finder_live_post_top_close",
+                        "resource-id": "com.tencent.mm:id/finder_live_post_top_close",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            43,
+                            114,
+                            119,
+                            190
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.finder.ui.FinderSelfUI",
+            "xml": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/12_after_xml_8017439.xml",
+            "img": "P0.FinderLive.FinderLiveInteractTest#test_colse_comment/2024061200072887-4846-043140/12_after_img_8017586.jpg"
+        }
+    ]
+}

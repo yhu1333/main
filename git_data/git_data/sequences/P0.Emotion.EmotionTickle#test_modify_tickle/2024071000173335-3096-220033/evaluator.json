@@ -1,0 +1,88 @@
+{
+    "actions": [
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/icon_tv",
+                "content-desc": "",
+                "text": "Me"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/avatar_iv",
+                "content-desc": "",
+                "text": ""
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "android:id/title",
+                "content-desc": "",
+                "text": "Tickle"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/pat_suffix_edit",
+                "content-desc": "",
+                "text": "MFIis"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/mode_iv",
+                "content-desc": "Stickers",
+                "text": ""
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/art_emoji_icon_iv",
+                "content-desc": "[Smile]",
+                "text": ""
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/next_btn",
+                "content-desc": "",
+                "text": "Done"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        }
+    ]
+}

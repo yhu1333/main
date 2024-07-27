@@ -1,0 +1,117 @@
+[
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "Nearby",
+            "class": "android.widget.TextView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[151,1396][297,1458]",
+            "resource-id": "android:id/title",
+            "_cache_id": "160076801"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "",
+            "class": "android.widget.FrameLayout",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "true",
+            "enabled": "true",
+            "focusable": "true",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "true",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[21,212][530,931]",
+            "resource-id": "com.tencent.mm:id/feed_round_corner_media_item_container",
+            "_cache_id": "174145497"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "",
+            "class": "android.widget.ImageView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[701,1714][777,1790]",
+            "resource-id": "com.tencent.mm:id/icon_feed_share",
+            "_cache_id": "257309163"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "1",
+            "text": "Set as Moments Cover",
+            "class": "android.widget.TextView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[584,1347][735,1420]",
+            "resource-id": "com.tencent.mm:id/title",
+            "_cache_id": "128687253"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "Done",
+            "class": "android.widget.Button",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "true",
+            "enabled": "true",
+            "focusable": "true",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[879,1687][1042,1773]",
+            "resource-id": "com.tencent.mm:id/cover_finder_preview_finish",
+            "_cache_id": "208946266"
+        }
+    }
+]

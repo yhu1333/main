@@ -1,0 +1,163 @@
+[
+    {
+        "type": "click",
+        "element": {
+            "index": "1",
+            "text": "Contacts",
+            "class": "android.widget.TextView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[341,1861][469,1904]",
+            "resource-id": "com.tencent.mm:id/icon_tv",
+            "_cache_id": "226281099"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "aaui_099_202211 ",
+            "class": "android.widget.TextView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[194,1325][567,1387]",
+            "resource-id": "com.tencent.mm:id/nickname_tv",
+            "_cache_id": "165770044"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "1",
+            "text": "Send Message",
+            "class": "android.widget.TextView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[433,1469][733,1531]",
+            "resource-id": "com.tencent.mm:id/text",
+            "_cache_id": "193702976"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "",
+            "class": "android.widget.ImageButton",
+            "package": "com.tencent.mm",
+            "content-desc": "Hide more function buttons",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "true",
+            "enabled": "true",
+            "focusable": "true",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[972,1802][1058,1888]",
+            "resource-id": "com.tencent.mm:id/chatting_attach_btn",
+            "_cache_id": "209360527"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "1",
+            "text": "Red Packet",
+            "class": "android.widget.TextView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[86,1761][246,1804]",
+            "resource-id": "com.tencent.mm:id/app_grid_item_name",
+            "_cache_id": "65696675"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "",
+            "class": "android.widget.LinearLayout",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[369,106][711,168]",
+            "resource-id": "",
+            "_cache_id": "8325322"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "",
+            "class": "android.widget.Button",
+            "package": "com.tencent.mm",
+            "content-desc": "Add Sticker",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "true",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[894,516][972,594]",
+            "resource-id": "com.tencent.mm:id/lucky_money_emoji_bt",
+            "_cache_id": "261837529"
+        }
+    }
+]

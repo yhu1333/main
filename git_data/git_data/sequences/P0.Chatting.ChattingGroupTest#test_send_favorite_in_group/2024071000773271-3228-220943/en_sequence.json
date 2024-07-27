@@ -1,0 +1,301 @@
+{
+    "seq_name": "P0.Chatting.ChattingGroupTest#test_send_favorite_in_group",
+    "doc": "群聊中发送收藏\n:return:\n",
+    "en_sequence": [
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Chatting.ChattingGroupTest#test_send_favorite_in_group/2024071000773271-3228-220943/00_before_xml_674624.xml",
+            "img": "P0.Chatting.ChattingGroupTest#test_send_favorite_in_group/2024071000773271-3228-220943/00_before_img_674733.jpg",
+            "statement": "self.device.click_on_point(target_x, target_y)",
+            "operation": {
+                "action": "click_on_point",
+                "widget": {},
+                "args": [
+                    405.0,
+                    1882.5
+                ],
+                "kwargs": {},
+                "x": 405.0,
+                "y": 1882.5,
+                "locator": {}
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Chatting.ChattingGroupTest#test_send_favorite_in_group/2024071000773271-3228-220943/01_before_xml_674860.xml",
+            "img": "P0.Chatting.ChattingGroupTest#test_send_favorite_in_group/2024071000773271-3228-220943/01_before_img_675244.jpg",
+            "statement": "self.e.text(\"群聊\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 194,
+                    "y": 504,
+                    "w": 254,
+                    "h": 150
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/addressui_content",
+                        "resource-id": "com.tencent.mm:id/addressui_content",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "Group Chats",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            194,
+                            504,
+                            448,
+                            654
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.contact.ChatroomContactUI",
+            "xml": "P0.Chatting.ChattingGroupTest#test_send_favorite_in_group/2024071000773271-3228-220943/02_before_xml_675387.xml",
+            "img": "P0.Chatting.ChattingGroupTest#test_send_favorite_in_group/2024071000773271-3228-220943/02_before_img_675489.jpg",
+            "statement": "self.e.text(group_name).click(True)",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 205,
+                    "y": 270,
+                    "w": 875,
+                    "h": 151
+                },
+                "args": [
+                    true
+                ],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/contactitem_nick",
+                        "resource-id": "com.tencent.mm:id/contactitem_nick",
+                        "index": 1,
+                        "class": "android.widget.TextView",
+                        "text": "AA自动化测试",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            205,
+                            270,
+                            1080,
+                            421
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.chatting.ChattingUI",
+            "xml": "P0.Chatting.ChattingGroupTest#test_send_favorite_in_group/2024071000773271-3228-220943/03_before_xml_675604.xml",
+            "img": "P0.Chatting.ChattingGroupTest#test_send_favorite_in_group/2024071000773271-3228-220943/03_before_img_675715.jpg",
+            "statement": "self.e.desc(\"切换到键盘\").click_if_exists(0)",
+            "operation": {
+                "action": "click_on_point",
+                "widget": {},
+                "args": [
+                    65,
+                    1845
+                ],
+                "kwargs": {},
+                "x": 65,
+                "y": 1845,
+                "locator": {}
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.chatting.ChattingUI",
+            "xml": "P0.Chatting.ChattingGroupTest#test_send_favorite_in_group/2024071000773271-3228-220943/04_before_xml_675832.xml",
+            "img": "P0.Chatting.ChattingGroupTest#test_send_favorite_in_group/2024071000773271-3228-220943/04_before_img_675949.jpg",
+            "statement": "self.e.desc_contains(\"更多功能按钮，已折叠\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 972,
+                    "y": 1250,
+                    "w": 86,
+                    "h": 86
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/chatting_attach_btn",
+                        "resource-id": "com.tencent.mm:id/chatting_attach_btn",
+                        "index": 0,
+                        "class": "android.widget.ImageButton",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "Hide more function buttons",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            972,
+                            1250,
+                            1058,
+                            1336
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.chatting.ChattingUI",
+            "xml": "P0.Chatting.ChattingGroupTest#test_send_favorite_in_group/2024071000773271-3228-220943/05_before_xml_676062.xml",
+            "img": "P0.Chatting.ChattingGroupTest#test_send_favorite_in_group/2024071000773271-3228-220943/05_before_img_676179.jpg",
+            "statement": "return v.click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 845,
+                    "y": 1761,
+                    "w": 131,
+                    "h": 43
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/app_grid_item_name",
+                        "resource-id": "com.tencent.mm:id/app_grid_item_name",
+                        "index": 1,
+                        "class": "android.widget.TextView",
+                        "text": "Favorites",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            845,
+                            1761,
+                            976,
+                            1804
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.fav.ui.FavSelectUI",
+            "xml": "P0.Chatting.ChattingGroupTest#test_send_favorite_in_group/2024071000773271-3228-220943/06_before_xml_676292.xml",
+            "img": "P0.Chatting.ChattingGroupTest#test_send_favorite_in_group/2024071000773271-3228-220943/06_before_img_676397.jpg",
+            "statement": "self.e.list_view().child().rid(\"com.tencent.mm:id/fav_item_container\").instance(i).click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 0,
+                    "y": 482,
+                    "w": 1080,
+                    "h": 345
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/fav_item_container",
+                        "resource-id": "com.tencent.mm:id/fav_item_container",
+                        "index": 0,
+                        "class": "android.widget.LinearLayout",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            0,
+                            482,
+                            1080,
+                            827
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.fav.ui.FavSelectUI",
+            "xml": "P0.Chatting.ChattingGroupTest#test_send_favorite_in_group/2024071000773271-3228-220943/07_before_xml_676570.xml",
+            "img": "P0.Chatting.ChattingGroupTest#test_send_favorite_in_group/2024071000773271-3228-220943/07_before_img_676673.jpg",
+            "statement": "self.e.text(\"发送\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 541,
+                    "y": 1243,
+                    "w": 431,
+                    "h": 151
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/mm_alert_ok_btn",
+                        "resource-id": "com.tencent.mm:id/mm_alert_ok_btn",
+                        "index": 2,
+                        "class": "android.widget.Button",
+                        "text": "Send",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            541,
+                            1243,
+                            972,
+                            1394
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.chatting.ChattingUI",
+            "xml": "P0.Chatting.ChattingGroupTest#test_send_favorite_in_group/2024071000773271-3228-220943/07_after_xml_676622.xml",
+            "img": "P0.Chatting.ChattingGroupTest#test_send_favorite_in_group/2024071000773271-3228-220943/07_after_img_676715.jpg"
+        }
+    ]
+}

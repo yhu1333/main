@@ -1,0 +1,148 @@
+{
+    "actions": [
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "android:id/title",
+                "content-desc": "",
+                "text": "Channels"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/personalCenter",
+                "content-desc": "View Settings",
+                "text": ""
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/actionbar_up_indicator_btn",
+                "content-desc": "Back",
+                "text": ""
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/searchEntranceRight",
+                "content-desc": "Search",
+                "text": ""
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/edittext",
+                "content-desc": "",
+                "text": "Search"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "enter",
+                "resource-id": "com.tencent.mm:id/edittext",
+                "content-desc": "",
+                "text": "\u521a\u679c\u91d1\u4e2d\u4f01\u906d\u6b66\u88c5"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/search_done",
+                "content-desc": "",
+                "text": "Search"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "",
+                "content-desc": "",
+                "text": "Account,\u6309\u94ae,2\u4e4b2"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "",
+                "content-desc": "",
+                "text": "\u5317\u5927\u7eb5\u6a2a\u521b\u59cb\u4eba\u738b\u749e"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/tabTitle",
+                "content-desc": "",
+                "text": "Replay"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/finder_profile_drawer_media_item_layout",
+                "content-desc": "",
+                "text": ""
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/little_follow_tv",
+                "content-desc": "",
+                "text": "Following"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        }
+    ]
+}

@@ -1,0 +1,559 @@
+{
+    "seq_name": "P0.Emotion.EmotionRedPacket#test_add_emo2",
+    "doc": "在发红包页面，删除添加的自定义表情\n",
+    "en_sequence": [
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/00_before_xml_1808189.xml",
+            "img": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/00_before_img_1808316.jpg",
+            "statement": "self.e.text(\"通讯录\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 341,
+                    "y": 1861,
+                    "w": 128,
+                    "h": 43
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/icon_tv",
+                        "resource-id": "com.tencent.mm:id/icon_tv",
+                        "index": 1,
+                        "class": "android.widget.TextView",
+                        "text": "Contacts",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            341,
+                            1861,
+                            469,
+                            1904
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/01_before_xml_1808434.xml",
+            "img": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/01_before_img_1808554.jpg",
+            "statement": "self.e.text_contains(contact_name).click(True)",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 194,
+                    "y": 1325,
+                    "w": 373,
+                    "h": 62
+                },
+                "args": [
+                    true
+                ],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/nickname_tv",
+                        "resource-id": "com.tencent.mm:id/nickname_tv",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "aaui_099_202211",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            194,
+                            1325,
+                            567,
+                            1387
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.profile.ui.ContactInfoUI",
+            "xml": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/02_before_xml_1808691.xml",
+            "img": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/02_before_img_1808810.jpg",
+            "statement": "self.e.text(\"发消息\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 433,
+                    "y": 1469,
+                    "w": 300,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/text",
+                        "resource-id": "com.tencent.mm:id/text",
+                        "index": 1,
+                        "class": "android.widget.TextView",
+                        "text": "Send Message",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            433,
+                            1469,
+                            733,
+                            1531
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.chatting.ChattingUI",
+            "xml": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/03_before_xml_1808921.xml",
+            "img": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/03_before_img_1809054.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/chatting_attach_btn\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 972,
+                    "y": 1802,
+                    "w": 86,
+                    "h": 86
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/chatting_attach_btn",
+                        "resource-id": "com.tencent.mm:id/chatting_attach_btn",
+                        "index": 0,
+                        "class": "android.widget.ImageButton",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "Hide more function buttons",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            972,
+                            1802,
+                            1058,
+                            1888
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.chatting.ChattingUI",
+            "xml": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/04_before_xml_1809188.xml",
+            "img": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/04_before_img_1809307.jpg",
+            "statement": "self.e.text(\"红包\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 86,
+                    "y": 1761,
+                    "w": 160,
+                    "h": 43
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/app_grid_item_name",
+                        "resource-id": "com.tencent.mm:id/app_grid_item_name",
+                        "index": 1,
+                        "class": "android.widget.TextView",
+                        "text": "Red Packet",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            86,
+                            1761,
+                            246,
+                            1804
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.luckymoney.ui.LuckyMoneyPrepareUI",
+            "xml": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/05_before_xml_1809472.xml",
+            "img": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/05_before_img_1809584.jpg",
+            "statement": "self.e.text(\"红包\").click_if_exists()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 369,
+                    "y": 106,
+                    "w": 342,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "android:id/text1",
+                        "resource-id": "android:id/text1",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "Send Red Packet",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            369,
+                            106,
+                            711,
+                            168
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.luckymoney.ui.LuckyMoneyPrepareUI",
+            "xml": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/06_before_xml_1809710.xml",
+            "img": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/06_before_img_1809816.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/lucky_money_emoji_bt\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 894,
+                    "y": 516,
+                    "w": 78,
+                    "h": 78
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/lucky_money_emoji_bt",
+                        "resource-id": "com.tencent.mm:id/lucky_money_emoji_bt",
+                        "index": 0,
+                        "class": "android.widget.Button",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "Add Sticker",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            894,
+                            516,
+                            972,
+                            594
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.luckymoney.ui.LuckyMoneyPrepareUI",
+            "xml": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/07_before_xml_1809976.xml",
+            "img": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/07_before_img_1810083.jpg",
+            "statement": "self.e.desc_contains(\"自定义表情\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 163,
+                    "y": 1204,
+                    "w": 119,
+                    "h": 119
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/smiley_listview_item_view",
+                        "resource-id": "com.tencent.mm:id/smiley_listview_item_view",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "Custom Stickers",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            163,
+                            1204,
+                            282,
+                            1323
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.luckymoney.ui.LuckyMoneyPrepareUI",
+            "xml": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/08_before_xml_1810203.xml",
+            "img": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/08_before_img_1810356.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/art_emoji_root\").instance(1).click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 233,
+                    "y": 1516,
+                    "w": 205,
+                    "h": 194
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/art_emoji_root",
+                        "resource-id": "com.tencent.mm:id/art_emoji_root",
+                        "index": 2,
+                        "class": "android.view.ViewGroup",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": true,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            233,
+                            1516,
+                            438,
+                            1710
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.luckymoney.ui.LuckyMoneyPrepareUI",
+            "xml": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/09_before_xml_1810541.xml",
+            "img": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/09_before_img_1810645.jpg",
+            "statement": "self.e.desc_contains(\"已添加表情\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 872,
+                    "y": 494,
+                    "w": 122,
+                    "h": 122
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/lucky_money_emoji",
+                        "resource-id": "com.tencent.mm:id/lucky_money_emoji",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "Sticker added",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            872,
+                            494,
+                            994,
+                            616
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.luckymoney.ui.LuckyMoneyPrepareUI",
+            "xml": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/10_before_xml_1810758.xml",
+            "img": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/10_before_img_1810861.jpg",
+            "statement": "self.e.text(\"取消\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 0,
+                    "y": 1769,
+                    "w": 1080,
+                    "h": 151
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/cancel_text",
+                        "resource-id": "com.tencent.mm:id/cancel_text",
+                        "index": 1,
+                        "class": "android.widget.TextView",
+                        "text": "Cancel",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            0,
+                            1769,
+                            1080,
+                            1920
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.luckymoney.ui.LuckyMoneyPrepareUI",
+            "xml": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/11_before_xml_1810976.xml",
+            "img": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/11_before_img_1811101.jpg",
+            "statement": "self.e.desc_contains(\"已添加表情\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 872,
+                    "y": 494,
+                    "w": 122,
+                    "h": 122
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/lucky_money_emoji",
+                        "resource-id": "com.tencent.mm:id/lucky_money_emoji",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "Sticker added",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            872,
+                            494,
+                            994,
+                            616
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.luckymoney.ui.LuckyMoneyPrepareUI",
+            "xml": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/12_before_xml_1811245.xml",
+            "img": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/12_before_img_1811358.jpg",
+            "statement": "self.e.text(\"删除表情\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 400,
+                    "y": 1639,
+                    "w": 279,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/title",
+                        "resource-id": "com.tencent.mm:id/title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "Delete Sticker",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            400,
+                            1639,
+                            679,
+                            1701
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.luckymoney.ui.LuckyMoneyPrepareUI",
+            "xml": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/12_after_xml_1811304.xml",
+            "img": "P0.Emotion.EmotionRedPacket#test_add_emo2/2024071000173335-3234-222803/12_after_img_1811433.jpg"
+        }
+    ]
+}

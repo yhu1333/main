@@ -1,0 +1,100 @@
+{
+    "actions": [
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "long_click",
+                "resource-id": "",
+                "content-desc": "",
+                "text": ""
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "",
+                "content-desc": "",
+                "text": "Delete Chat"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/mm_alert_ok_btn",
+                "content-desc": "",
+                "text": "Delete"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "",
+                "content-desc": "",
+                "text": ""
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/chatting_click_area",
+                "content-desc": "\u5c0f\u74f6\u5b50\u5fae\u5fae\u4e00\u7b11 #\u58f0\u58f0\u6162\n#\u4eac\u5267\n\n",
+                "text": ""
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/finder_media_layout",
+                "content-desc": "",
+                "text": ""
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/play_speed_ctrl_tv",
+                "content-desc": "",
+                "text": "Speed"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/icon_feed_share",
+                "content-desc": "",
+                "text": ""
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        }
+    ]
+}

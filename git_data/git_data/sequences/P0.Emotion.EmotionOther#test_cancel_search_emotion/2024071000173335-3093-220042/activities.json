@@ -1,0 +1,26 @@
+[
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.ui.conversation.MainUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.ui.conversation.MainUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.plugin.emoji.ui.v2.EmojiStoreV2UI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.plugin.webview.ui.tools.fts.MMFTSSOSHomeWebViewUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.plugin.webview.ui.tools.fts.MMFTSSOSHomeWebViewUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.plugin.emoji.ui.v2.EmojiStoreV2UI"
+    ]
+]

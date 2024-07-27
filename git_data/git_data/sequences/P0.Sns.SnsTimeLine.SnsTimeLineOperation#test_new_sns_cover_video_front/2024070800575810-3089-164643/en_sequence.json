@@ -1,0 +1,407 @@
+{
+    "seq_name": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_new_sns_cover_video_front",
+    "doc": "设置新版朋友圈封面-前置拍摄图片\n",
+    "en_sequence": [
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_new_sns_cover_video_front/2024070800575810-3089-164643/00_before_xml_8492552.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_new_sns_cover_video_front/2024070800575810-3089-164643/00_before_img_8492657.jpg",
+            "statement": "self.device.click_on_point(target_x, target_y)",
+            "operation": {
+                "action": "click_on_point",
+                "widget": {},
+                "args": [
+                    674.5,
+                    1882.5
+                ],
+                "kwargs": {},
+                "x": 674.5,
+                "y": 1882.5,
+                "locator": {}
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_new_sns_cover_video_front/2024070800575810-3089-164643/01_before_xml_8492765.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_new_sns_cover_video_front/2024070800575810-3089-164643/01_before_img_8493015.jpg",
+            "statement": "self.e.text(\"朋友圈\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 151,
+                    "y": 247,
+                    "w": 194,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "android:id/title",
+                        "resource-id": "android:id/title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "Moments",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            151,
+                            247,
+                            345,
+                            309
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.sns.ui.improve.ImproveSnsTimelineUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_new_sns_cover_video_front/2024070800575810-3089-164643/02_before_xml_8493151.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_new_sns_cover_video_front/2024070800575810-3089-164643/02_before_img_8493246.jpg",
+            "statement": "if not self.e.rid('com.tencent.mm:id/action_option_icon').click_if_exists():",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 929,
+                    "y": 72,
+                    "w": 151,
+                    "h": 130
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/action_option_icon",
+                        "resource-id": "com.tencent.mm:id/action_option_icon",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "Share Photo",
+                        "clickable": true,
+                        "long_clickable": true,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            929,
+                            72,
+                            1080,
+                            202
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.sns.ui.improve.ImproveSnsTimelineUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_new_sns_cover_video_front/2024070800575810-3089-164643/03_before_xml_8493355.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_new_sns_cover_video_front/2024070800575810-3089-164643/03_before_img_8493520.jpg",
+            "statement": "if not self.e.text(\"取消\").click_if_exists(5):",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 0,
+                    "y": 1769,
+                    "w": 1080,
+                    "h": 151
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/cancel_text",
+                        "resource-id": "com.tencent.mm:id/cancel_text",
+                        "index": 1,
+                        "class": "android.widget.TextView",
+                        "text": "Cancel",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            0,
+                            1769,
+                            1080,
+                            1920
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.sns.ui.improve.ImproveSnsTimelineUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_new_sns_cover_video_front/2024070800575810-3089-164643/04_before_xml_8493649.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_new_sns_cover_video_front/2024070800575810-3089-164643/04_before_img_8493755.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/improve_cover_layout\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 1080,
+                    "h": 853
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/improve_cover_layout",
+                        "resource-id": "com.tencent.mm:id/improve_cover_layout",
+                        "index": 0,
+                        "class": "android.widget.FrameLayout",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            0,
+                            0,
+                            1080,
+                            853
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.sns.ui.improve.ImproveSnsTimelineUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_new_sns_cover_video_front/2024070800575810-3089-164643/05_before_xml_8493860.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_new_sns_cover_video_front/2024070800575810-3089-164643/05_before_img_8493971.jpg",
+            "statement": "self.e.text(\"换封面\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 848,
+                    "y": 1667,
+                    "w": 168,
+                    "h": 37
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "",
+                        "resource-id": "",
+                        "index": 1,
+                        "class": "android.widget.TextView",
+                        "text": "Change Cover",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            848,
+                            1667,
+                            1016,
+                            1704
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.sns.ui.SettingSnsBackgroundUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_new_sns_cover_video_front/2024070800575810-3089-164643/06_before_xml_8494151.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_new_sns_cover_video_front/2024070800575810-3089-164643/06_before_img_8494251.jpg",
+            "statement": "self.e.text(item).click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 43,
+                    "y": 549,
+                    "w": 144,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "android:id/title",
+                        "resource-id": "android:id/title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "Record",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            43,
+                            549,
+                            187,
+                            611
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.recordvideo.activity.MMRecordUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_new_sns_cover_video_front/2024070800575810-3089-164643/07_before_xml_8494376.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_new_sns_cover_video_front/2024070800575810-3089-164643/07_before_img_8494486.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/switch_camera\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 842,
+                    "y": 1658,
+                    "w": 81,
+                    "h": 81
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/switch_camera",
+                        "resource-id": "com.tencent.mm:id/switch_camera",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "Switch to front camera",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            842,
+                            1658,
+                            923,
+                            1739
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.recordvideo.activity.MMRecordUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_new_sns_cover_video_front/2024070800575810-3089-164643/08_before_xml_8494654.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_new_sns_cover_video_front/2024070800575810-3089-164643/08_before_img_8494751.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/record_button\").long_click()",
+            "operation": {
+                "action": "long_click",
+                "widget": {
+                    "x": 394,
+                    "y": 1553,
+                    "w": 292,
+                    "h": 292
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/record_button",
+                        "resource-id": "com.tencent.mm:id/record_button",
+                        "index": 1,
+                        "class": "android.widget.FrameLayout",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "Double-tap with a one finger to take photo; Double-tap and hold with one finger to take video.",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            394,
+                            1553,
+                            686,
+                            1845
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.recordvideo.activity.MMRecordUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_new_sns_cover_video_front/2024070800575810-3089-164643/09_before_xml_8494866.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_new_sns_cover_video_front/2024070800575810-3089-164643/09_before_img_8495079.jpg",
+            "statement": "self.e.text(u\"确定\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 880,
+                    "y": 1692,
+                    "w": 162,
+                    "h": 86
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/cover_finish",
+                        "resource-id": "com.tencent.mm:id/cover_finish",
+                        "index": 1,
+                        "class": "android.widget.Button",
+                        "text": "OK",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            880,
+                            1692,
+                            1042,
+                            1778
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.sns.ui.improve.ImproveSnsTimelineUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_new_sns_cover_video_front/2024070800575810-3089-164643/09_after_xml_8494919.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_new_sns_cover_video_front/2024070800575810-3089-164643/09_after_img_8495125.jpg"
+        }
+    ]
+}

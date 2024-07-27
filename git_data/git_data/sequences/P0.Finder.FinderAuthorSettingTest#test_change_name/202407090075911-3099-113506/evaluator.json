@@ -1,0 +1,88 @@
+{
+    "actions": [
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "android:id/title",
+                "content-desc": "",
+                "text": "Channels"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/moreIv",
+                "content-desc": "",
+                "text": ""
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "android:id/title",
+                "content-desc": "",
+                "text": "Settings"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "android:id/title",
+                "content-desc": "",
+                "text": "Name"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "enter",
+                "resource-id": "com.tencent.mm:id/finder_edit",
+                "content-desc": "",
+                "text": "1yxJrcOqSD"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/finder_modify_btn",
+                "content-desc": "",
+                "text": "Done"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/finder_modify_title",
+                "content-desc": "",
+                "text": "Edit Name"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        }
+    ]
+}

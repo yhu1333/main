@@ -1,0 +1,281 @@
+{
+    "seq_name": "P0.Finder.FinderNewCameraPostTest#test_new_camera_post_special_effects_full_video",
+    "doc": "@Author:v_yuchenlai\n个人中心-新拍摄器-发表满录制时长特效视频\n",
+    "zh_sequence": [
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Finder.FinderNewCameraPostTest#test_new_camera_post_special_effects_full_video/2024061500620521-4846-042841/00_before_xml_7077269.xml",
+            "img": "P0.Finder.FinderNewCameraPostTest#test_new_camera_post_special_effects_full_video/2024061500620521-4846-042841/00_before_img_7077440.jpg",
+            "statement": "self.device.click_on_point(target_x, target_y)",
+            "operation": {
+                "action": "click_on_point",
+                "widget": {},
+                "args": [
+                    675.0,
+                    1882.5
+                ],
+                "kwargs": {},
+                "x": 675.0,
+                "y": 1882.5,
+                "locator": {}
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Finder.FinderNewCameraPostTest#test_new_camera_post_special_effects_full_video/2024061500620521-4846-042841/01_before_xml_7077656.xml",
+            "img": "P0.Finder.FinderNewCameraPostTest#test_new_camera_post_special_effects_full_video/2024061500620521-4846-042841/01_before_img_7077754.jpg",
+            "statement": "self.e.text(u\"视频号\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 151,
+                    "y": 421,
+                    "w": 138,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "android:id/title",
+                        "resource-id": "android:id/title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "视频号",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            151,
+                            421,
+                            289,
+                            483
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.finder.ui.FinderHomeAffinityUI",
+            "xml": "P0.Finder.FinderNewCameraPostTest#test_new_camera_post_special_effects_full_video/2024061500620521-4846-042841/02_before_xml_7077957.xml",
+            "img": "P0.Finder.FinderNewCameraPostTest#test_new_camera_post_special_effects_full_video/2024061500620521-4846-042841/02_before_img_7078077.jpg",
+            "statement": "self.at.e.rid(\"com.tencent.mm:id/personalCenter\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 939,
+                    "y": 68,
+                    "w": 118,
+                    "h": 118
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/personalCenter",
+                        "resource-id": "com.tencent.mm:id/personalCenter",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "浏览设置",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            939,
+                            68,
+                            1057,
+                            186
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.finder.ui.FinderSelfUI",
+            "xml": "P0.Finder.FinderNewCameraPostTest#test_new_camera_post_special_effects_full_video/2024061500620521-4846-042841/03_before_xml_7078309.xml",
+            "img": "P0.Finder.FinderNewCameraPostTest#test_new_camera_post_special_effects_full_video/2024061500620521-4846-042841/03_before_img_7078510.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/postBtn_new\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 43,
+                    "y": 1596,
+                    "w": 497,
+                    "h": 281
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/postBtn_new",
+                        "resource-id": "com.tencent.mm:id/postBtn_new",
+                        "index": 0,
+                        "class": "android.widget.RelativeLayout",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            43,
+                            1596,
+                            540,
+                            1877
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.recordvideo.activity.MMRecordUI",
+            "xml": "P0.Finder.FinderNewCameraPostTest#test_new_camera_post_special_effects_full_video/2024061500620521-4846-042841/04_before_xml_7078763.xml",
+            "img": "P0.Finder.FinderNewCameraPostTest#test_new_camera_post_special_effects_full_video/2024061500620521-4846-042841/04_before_img_7078910.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/inner\").click()#点击录制直到自动终止",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 453,
+                    "y": 1407,
+                    "w": 173,
+                    "h": 173
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/inner",
+                        "resource-id": "com.tencent.mm:id/inner",
+                        "index": 1,
+                        "class": "android.view.View",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            453,
+                            1407,
+                            626,
+                            1580
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.mj_publisher.finder.movie_composing.MovieComposingUI",
+            "xml": "P0.Finder.FinderNewCameraPostTest#test_new_camera_post_special_effects_full_video/2024061500620521-4846-042841/05_before_xml_7079163.xml",
+            "img": "P0.Finder.FinderNewCameraPostTest#test_new_camera_post_special_effects_full_video/2024061500620521-4846-042841/05_before_img_7079325.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/btn_edit_done\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 897,
+                    "y": 1715,
+                    "w": 140,
+                    "h": 86
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/btn_edit_done",
+                        "resource-id": "com.tencent.mm:id/btn_edit_done",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "完成",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            897,
+                            1715,
+                            1037,
+                            1801
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.finder.ui.FinderPostUI",
+            "xml": "P0.Finder.FinderNewCameraPostTest#test_new_camera_post_special_effects_full_video/2024061500620521-4846-042841/06_before_xml_7079459.xml",
+            "img": "P0.Finder.FinderNewCameraPostTest#test_new_camera_post_special_effects_full_video/2024061500620521-4846-042841/06_before_img_7079611.jpg",
+            "statement": "self.e.text(\"发表\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 865,
+                    "y": 128,
+                    "w": 172,
+                    "h": 92
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/finder_post_send",
+                        "resource-id": "com.tencent.mm:id/finder_post_send",
+                        "index": 1,
+                        "class": "android.widget.TextView",
+                        "text": "发表",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            865,
+                            128,
+                            1037,
+                            220
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.finder.ui.FinderHomeAffinityUI",
+            "xml": "P0.Finder.FinderNewCameraPostTest#test_new_camera_post_special_effects_full_video/2024061500620521-4846-042841/06_after_xml_7079516.xml",
+            "img": "P0.Finder.FinderNewCameraPostTest#test_new_camera_post_special_effects_full_video/2024061500620521-4846-042841/06_after_img_7079667.jpg"
+        }
+    ]
+}

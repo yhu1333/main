@@ -1,0 +1,140 @@
+[
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "aaui_099_202211 ",
+            "class": "android.widget.TextView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[194,1325][621,1387]",
+            "resource-id": "com.tencent.mm:id/nickname_tv",
+            "_cache_id": "178002355"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "1",
+            "text": "发消息",
+            "class": "android.widget.TextView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[514,1469][652,1531]",
+            "resource-id": "com.tencent.mm:id/text",
+            "_cache_id": "93366443"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "2",
+            "text": "",
+            "class": "android.widget.LinearLayout",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[929,72][1080,202]",
+            "resource-id": "com.tencent.mm:id/custom_menu_container_outside",
+            "_cache_id": "18132370"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "",
+            "class": "android.widget.LinearLayout",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[43,577][319,639]",
+            "resource-id": "",
+            "_cache_id": "115584048"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "6",
+            "text": "",
+            "class": "android.widget.LinearLayout",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[191,686][381,738]",
+            "resource-id": "",
+            "_cache_id": "138595781"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "",
+            "class": "android.widget.ImageView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[43,245][111,313]",
+            "resource-id": "com.tencent.mm:id/fav_avatar",
+            "_cache_id": "55021833"
+        }
+    }
+]

@@ -1,0 +1,117 @@
+[
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "Channels",
+            "class": "android.widget.TextView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[151,421][340,483]",
+            "resource-id": "android:id/title",
+            "_cache_id": "17274314"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "1",
+            "text": "",
+            "class": "androidx.appcompat.app.a",
+            "package": "com.tencent.mm",
+            "content-desc": "Friends' Likes",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "true",
+            "enabled": "true",
+            "focusable": "true",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[471,70][704,154]",
+            "resource-id": "",
+            "_cache_id": "209826950"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "1",
+            "text": "",
+            "class": "android.widget.LinearLayout",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "true",
+            "enabled": "true",
+            "focusable": "true",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "true",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[674,1714][804,1845]",
+            "resource-id": "com.tencent.mm:id/share_icon_container",
+            "_cache_id": "196647961"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "1",
+            "text": "Set as Moments Cover",
+            "class": "android.widget.TextView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[584,1347][735,1420]",
+            "resource-id": "com.tencent.mm:id/title",
+            "_cache_id": "257494326"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "Done",
+            "class": "android.widget.Button",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "true",
+            "enabled": "true",
+            "focusable": "true",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[879,1687][1042,1773]",
+            "resource-id": "com.tencent.mm:id/cover_finder_preview_finish",
+            "_cache_id": "148167833"
+        }
+    }
+]

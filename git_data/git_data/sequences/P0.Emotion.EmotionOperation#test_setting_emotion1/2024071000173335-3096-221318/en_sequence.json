@@ -1,0 +1,389 @@
+{
+    "seq_name": "P0.Emotion.EmotionOperation#test_setting_emotion1",
+    "doc": "表情商店设置界面，聊天会话界面的表情\n:return:\n",
+    "en_sequence": [
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Emotion.EmotionOperation#test_setting_emotion1/2024071000173335-3096-221318/00_before_xml_925783.xml",
+            "img": "P0.Emotion.EmotionOperation#test_setting_emotion1/2024071000173335-3096-221318/00_before_img_925873.jpg",
+            "statement": "self.device.click_on_point(target_x, target_y)",
+            "operation": {
+                "action": "click_on_point",
+                "widget": {},
+                "args": [
+                    944.5,
+                    1882.5
+                ],
+                "kwargs": {},
+                "x": 944.5,
+                "y": 1882.5,
+                "locator": {}
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Emotion.EmotionOperation#test_setting_emotion1/2024071000173335-3096-221318/01_before_xml_925981.xml",
+            "img": "P0.Emotion.EmotionOperation#test_setting_emotion1/2024071000173335-3096-221318/01_before_img_926071.jpg",
+            "statement": "self.e.text(\"表情\").click(is_scroll=True)",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 151,
+                    "y": 1676,
+                    "w": 291,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {
+                    "is_scroll": true
+                },
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "android:id/title",
+                        "resource-id": "android:id/title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "Sticker Gallery",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            151,
+                            1676,
+                            442,
+                            1738
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.emoji.ui.v2.EmojiStoreV2UI",
+            "xml": "P0.Emotion.EmotionOperation#test_setting_emotion1/2024071000173335-3096-221318/02_before_xml_926190.xml",
+            "img": "P0.Emotion.EmotionOperation#test_setting_emotion1/2024071000173335-3096-221318/02_before_img_926306.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/item_icon\").click(True)",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 32,
+                    "y": 1053,
+                    "w": 203,
+                    "h": 203
+                },
+                "args": [
+                    true
+                ],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/item_icon",
+                        "resource-id": "com.tencent.mm:id/item_icon",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            32,
+                            1053,
+                            235,
+                            1256
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.lite.ui.WxaLiteAppLiteUI",
+            "xml": "P0.Emotion.EmotionOperation#test_setting_emotion1/2024071000173335-3096-221318/03_before_xml_926413.xml",
+            "img": "P0.Emotion.EmotionOperation#test_setting_emotion1/2024071000173335-3096-221318/03_before_img_926509.jpg",
+            "statement": "self.e.desc_contains(\"添加\").click_if_exists(3)",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 848,
+                    "y": 641,
+                    "w": 167,
+                    "h": 86
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "",
+                        "resource-id": "",
+                        "index": 2,
+                        "class": "android.widget.Button",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "Add",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            848,
+                            641,
+                            1015,
+                            727
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.lite.ui.WxaLiteAppLiteUI",
+            "xml": "P0.Emotion.EmotionOperation#test_setting_emotion1/2024071000173335-3096-221318/04_before_xml_926600.xml",
+            "img": "P0.Emotion.EmotionOperation#test_setting_emotion1/2024071000173335-3096-221318/04_before_img_926690.jpg",
+            "statement": "self.e.desc_contains(\"返回\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 14,
+                    "y": 60,
+                    "w": 108,
+                    "h": 108
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "",
+                        "resource-id": "",
+                        "index": 0,
+                        "class": "android.widget.Button",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "返回",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            14,
+                            60,
+                            122,
+                            168
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.emoji.ui.v2.EmojiStoreV2UI",
+            "xml": "P0.Emotion.EmotionOperation#test_setting_emotion1/2024071000173335-3096-221318/05_before_xml_926795.xml",
+            "img": "P0.Emotion.EmotionOperation#test_setting_emotion1/2024071000173335-3096-221318/05_before_img_926978.jpg",
+            "statement": "self.e.desc_contains(\"返回\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 0,
+                    "y": 72,
+                    "w": 86,
+                    "h": 130
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/arrow_area_btn",
+                        "resource-id": "com.tencent.mm:id/arrow_area_btn",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "Back",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            0,
+                            72,
+                            86,
+                            202
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Emotion.EmotionOperation#test_setting_emotion1/2024071000173335-3096-221318/06_before_xml_927080.xml",
+            "img": "P0.Emotion.EmotionOperation#test_setting_emotion1/2024071000173335-3096-221318/06_before_img_927170.jpg",
+            "statement": "self.device.click_on_point(target_x, target_y)",
+            "operation": {
+                "action": "click_on_point",
+                "widget": {},
+                "args": [
+                    944.5,
+                    1882.5
+                ],
+                "kwargs": {},
+                "x": 944.5,
+                "y": 1882.5,
+                "locator": {}
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Emotion.EmotionOperation#test_setting_emotion1/2024071000173335-3096-221318/07_before_xml_927306.xml",
+            "img": "P0.Emotion.EmotionOperation#test_setting_emotion1/2024071000173335-3096-221318/07_before_img_927414.jpg",
+            "statement": "self.e.text(\"表情\").click(is_scroll=True)",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 151,
+                    "y": 1676,
+                    "w": 291,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {
+                    "is_scroll": true
+                },
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "android:id/title",
+                        "resource-id": "android:id/title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "Sticker Gallery",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            151,
+                            1676,
+                            442,
+                            1738
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.emoji.ui.v2.EmojiStoreV2UI",
+            "xml": "P0.Emotion.EmotionOperation#test_setting_emotion1/2024071000173335-3096-221318/08_before_xml_927555.xml",
+            "img": "P0.Emotion.EmotionOperation#test_setting_emotion1/2024071000173335-3096-221318/08_before_img_927668.jpg",
+            "statement": "self.e.rid('com.tencent.mm:id/action_option_icon_right').click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 950,
+                    "y": 72,
+                    "w": 130,
+                    "h": 130
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/action_option_icon_right",
+                        "resource-id": "com.tencent.mm:id/action_option_icon_right",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "Manage",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            950,
+                            72,
+                            1080,
+                            202
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.emoji.ui.EmojiMineUI",
+            "xml": "P0.Emotion.EmotionOperation#test_setting_emotion1/2024071000173335-3096-221318/09_before_xml_927778.xml",
+            "img": "P0.Emotion.EmotionOperation#test_setting_emotion1/2024071000173335-3096-221318/09_before_img_927880.jpg",
+            "statement": "self.e.text(\"移除\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 837,
+                    "y": 1088,
+                    "w": 200,
+                    "h": 86
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/emoji_mine_group_btn",
+                        "resource-id": "com.tencent.mm:id/emoji_mine_group_btn",
+                        "index": 2,
+                        "class": "android.widget.Button",
+                        "text": "Remove",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            837,
+                            1088,
+                            1037,
+                            1174
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.emoji.ui.EmojiMineUI",
+            "xml": "P0.Emotion.EmotionOperation#test_setting_emotion1/2024071000173335-3096-221318/09_after_xml_927827.xml",
+            "img": "P0.Emotion.EmotionOperation#test_setting_emotion1/2024071000173335-3096-221318/09_after_img_927921.jpg"
+        }
+    ]
+}

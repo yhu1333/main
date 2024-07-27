@@ -1,0 +1,64 @@
+{
+    "actions": [
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "android:id/title",
+                "content-desc": "",
+                "text": "Channels"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/personalCenter",
+                "content-desc": "View Settings",
+                "text": ""
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "",
+                "content-desc": "",
+                "text": "Settings"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/interactive_info_group",
+                "content-desc": "",
+                "text": ""
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "android:id/title",
+                "content-desc": "",
+                "text": "Follow"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        }
+    ]
+}

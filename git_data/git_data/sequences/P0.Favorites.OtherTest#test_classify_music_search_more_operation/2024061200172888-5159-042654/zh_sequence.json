@@ -1,0 +1,1037 @@
+{
+    "seq_name": "P0.Favorites.OtherTest#test_classify_music_search_more_operation",
+    "doc": "@name: 筛选器--音乐：添加标签，搜索更多操作\n",
+    "zh_sequence": [
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/00_before_xml_7792373.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/00_before_img_7792622.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/tabview_container\").instance(1).click()  # 通讯录",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 270,
+                    "y": 1769,
+                    "w": 270,
+                    "h": 151
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/tabview_container",
+                        "resource-id": "com.tencent.mm:id/tabview_container",
+                        "index": 1,
+                        "class": "android.widget.RelativeLayout",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            270,
+                            1769,
+                            540,
+                            1920
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/01_before_xml_7792868.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/01_before_img_7793010.jpg",
+            "statement": "self.e.text_contains(self.first_contact_name).click(True)",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 194,
+                    "y": 1563,
+                    "w": 427,
+                    "h": 62
+                },
+                "args": [
+                    true
+                ],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/nickname_tv",
+                        "resource-id": "com.tencent.mm:id/nickname_tv",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "aaui_099_202211",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            194,
+                            1563,
+                            621,
+                            1625
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.profile.ui.ContactInfoUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/02_before_xml_7793457.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/02_before_img_7793589.jpg",
+            "statement": "self.e.text(u\"发消息\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 514,
+                    "y": 1620,
+                    "w": 138,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/text",
+                        "resource-id": "com.tencent.mm:id/text",
+                        "index": 1,
+                        "class": "android.widget.TextView",
+                        "text": "发消息",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            514,
+                            1620,
+                            652,
+                            1682
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.chatting.ChattingUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/03_before_xml_7793869.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/03_before_img_7794112.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/chatting_music_cover\").long_click()  #长按音乐",
+            "operation": {
+                "action": "long_click",
+                "widget": {
+                    "x": 172,
+                    "y": 1432,
+                    "w": 238,
+                    "h": 238
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/chatting_music_cover",
+                        "resource-id": "com.tencent.mm:id/chatting_music_cover",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            172,
+                            1432,
+                            410,
+                            1670
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.chatting.ChattingUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/04_before_xml_7794368.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/04_before_img_7794617.jpg",
+            "statement": "self.e.text(u\"收藏\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 367,
+                    "y": 1127,
+                    "w": 64,
+                    "h": 43
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/title",
+                        "resource-id": "com.tencent.mm:id/title",
+                        "index": 1,
+                        "class": "android.widget.TextView",
+                        "text": "收藏",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            367,
+                            1127,
+                            431,
+                            1170
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.chatting.ChattingUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/05_before_xml_7794863.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/05_before_img_7795022.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/actionbar_up_indicator\").click()  #退出会话",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 0,
+                    "y": 72,
+                    "w": 86,
+                    "h": 130
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/actionbar_up_indicator",
+                        "resource-id": "com.tencent.mm:id/actionbar_up_indicator",
+                        "index": 0,
+                        "class": "android.widget.LinearLayout",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            0,
+                            72,
+                            86,
+                            202
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.profile.ui.ContactInfoUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/06_before_xml_7795268.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/06_before_img_7795511.jpg",
+            "statement": "self.at.device.click_on_ui_view(should_click_view)",
+            "operation": {
+                "action": "click_on_point",
+                "widget": {},
+                "args": [
+                    54,
+                    137
+                ],
+                "kwargs": {},
+                "x": 54,
+                "y": 137,
+                "locator": {}
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/07_before_xml_7795763.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/07_before_img_7796010.jpg",
+            "statement": "self.device.click_on_point(target_x, target_y)",
+            "operation": {
+                "action": "click_on_point",
+                "widget": {},
+                "args": [
+                    135.0,
+                    1882.5
+                ],
+                "kwargs": {},
+                "x": 135.0,
+                "y": 1882.5,
+                "locator": {}
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/08_before_xml_7796358.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/08_before_img_7796612.jpg",
+            "statement": "self.device.click_on_point(target_x, target_y)",
+            "operation": {
+                "action": "click_on_point",
+                "widget": {},
+                "args": [
+                    945.0,
+                    1882.5
+                ],
+                "kwargs": {},
+                "x": 945.0,
+                "y": 1882.5,
+                "locator": {}
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/09_before_xml_7796957.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/09_before_img_7797155.jpg",
+            "statement": "self.e.text(u\"收藏\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 151,
+                    "y": 1321,
+                    "w": 92,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "android:id/title",
+                        "resource-id": "android:id/title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "收藏",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            151,
+                            1321,
+                            243,
+                            1383
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.fav.ui.FavoriteIndexUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/10_before_xml_7797368.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/10_before_img_7797605.jpg",
+            "statement": "self.e.rid('com.tencent.mm:id/fav_down_menu_btn').click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 988,
+                    "y": 376,
+                    "w": 54,
+                    "h": 54
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/fav_down_menu_btn",
+                        "resource-id": "com.tencent.mm:id/fav_down_menu_btn",
+                        "index": 1,
+                        "class": "android.widget.RelativeLayout",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "更多",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            988,
+                            376,
+                            1042,
+                            430
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.fav.ui.FavoriteIndexUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/11_before_xml_7797958.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/11_before_img_7798120.jpg",
+            "statement": "self.e.text('音乐').click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 22,
+                    "y": 570,
+                    "w": 338,
+                    "h": 96
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/content_tv",
+                        "resource-id": "com.tencent.mm:id/content_tv",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "音乐",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            22,
+                            570,
+                            360,
+                            666
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.fav.ui.FavoriteIndexUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/12_before_xml_7798363.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/12_before_img_7798643.jpg",
+            "statement": "self.e.text(music_name).long_click()",
+            "operation": {
+                "action": "long_click",
+                "widget": {
+                    "x": 65,
+                    "y": 697,
+                    "w": 319,
+                    "h": 54
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/fav_title",
+                        "resource-id": "com.tencent.mm:id/fav_title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "声声慢 (烟嗓版)",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            65,
+                            697,
+                            384,
+                            751
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.fav.ui.FavoriteIndexUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/13_before_xml_7798963.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/13_before_img_7799186.jpg",
+            "statement": "self.e.text(u\"编辑标签\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 400,
+                    "y": 544,
+                    "w": 128,
+                    "h": 43
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/title",
+                        "resource-id": "com.tencent.mm:id/title",
+                        "index": 1,
+                        "class": "android.widget.TextView",
+                        "text": "编辑标签",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            400,
+                            544,
+                            528,
+                            587
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.fav.ui.FavTagEditUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/14_before_xml_7799469.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/14_before_img_7799609.jpg",
+            "statement": "self.e.text(\"添加标签\").enter(tagtext)",
+            "operation": {
+                "action": "enter",
+                "widget": {
+                    "x": 22,
+                    "y": 224,
+                    "w": 248,
+                    "h": 65
+                },
+                "args": [
+                    "music"
+                ],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/edittext",
+                        "resource-id": "com.tencent.mm:id/edittext",
+                        "index": 1,
+                        "class": "android.widget.EditText",
+                        "text": "添加标签",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": true,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            22,
+                            224,
+                            270,
+                            289
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.fav.ui.FavTagEditUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/15_before_xml_7799869.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/15_before_img_7800007.jpg",
+            "statement": "self.e.text(u\"完成\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 897,
+                    "y": 94,
+                    "w": 140,
+                    "h": 86
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/action_option_btn",
+                        "resource-id": "com.tencent.mm:id/action_option_btn",
+                        "index": 0,
+                        "class": "android.widget.Button",
+                        "text": "完成",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": true,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            897,
+                            94,
+                            1037,
+                            180
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.fav.ui.FavoriteIndexUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/16_before_xml_7800168.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/16_before_img_7800305.jpg",
+            "statement": "self.e.text(music_name).long_click()",
+            "operation": {
+                "action": "long_click",
+                "widget": {
+                    "x": 65,
+                    "y": 697,
+                    "w": 319,
+                    "h": 54
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/fav_title",
+                        "resource-id": "com.tencent.mm:id/fav_title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "声声慢 (烟嗓版)",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            65,
+                            697,
+                            384,
+                            751
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.fav.ui.FavoriteIndexUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/17_before_xml_7800568.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/17_before_img_7800808.jpg",
+            "statement": "self.e.text(\"多选\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 734,
+                    "y": 544,
+                    "w": 64,
+                    "h": 43
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/title",
+                        "resource-id": "com.tencent.mm:id/title",
+                        "index": 1,
+                        "class": "android.widget.TextView",
+                        "text": "多选",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            734,
+                            544,
+                            798,
+                            587
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.fav.ui.FavoriteIndexUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/18_before_xml_7801069.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/18_before_img_7801198.jpg",
+            "statement": "self.e.rid('com.tencent.mm:id/fav_edit_forward').click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 172,
+                    "y": 1791,
+                    "w": 130,
+                    "h": 129
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/fav_edit_forward",
+                        "resource-id": "com.tencent.mm:id/fav_edit_forward",
+                        "index": 1,
+                        "class": "android.widget.ImageButton",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "转发",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            172,
+                            1791,
+                            302,
+                            1920
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.transmit.SelectConversationUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/19_before_xml_7801463.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/19_before_img_7801632.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/content_tv\").click()  #创建新的聊天",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 798,
+                    "y": 424,
+                    "w": 228,
+                    "h": 52
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/content_tv",
+                        "resource-id": "com.tencent.mm:id/content_tv",
+                        "index": 1,
+                        "class": "android.widget.TextView",
+                        "text": "创建新的聊天",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            798,
+                            424,
+                            1026,
+                            476
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.mvvm.MvvmSelectContactUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/20_before_xml_7801863.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/20_before_img_7802148.jpg",
+            "statement": "self.e.text(contact_name).click(True)",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 310,
+                    "y": 949,
+                    "w": 276,
+                    "h": 62
+                },
+                "args": [
+                    true
+                ],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/nickname_tv",
+                        "resource-id": "com.tencent.mm:id/nickname_tv",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "aauiauto_001",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            310,
+                            949,
+                            586,
+                            1011
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.mvvm.MvvmSelectContactUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/21_before_xml_7802458.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/21_before_img_7802697.jpg",
+            "statement": "self.e.text(u\"完成(1)\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 850,
+                    "y": 94,
+                    "w": 187,
+                    "h": 86
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/action_option_btn",
+                        "resource-id": "com.tencent.mm:id/action_option_btn",
+                        "index": 0,
+                        "class": "android.widget.Button",
+                        "text": "完成(1)",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": true,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            850,
+                            94,
+                            1037,
+                            180
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.transmit.SelectConversationUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/22_before_xml_7802963.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/22_before_img_7803118.jpg",
+            "statement": "self.e.text(u\"发送\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 541,
+                    "y": 1243,
+                    "w": 431,
+                    "h": 151
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/mm_alert_ok_btn",
+                        "resource-id": "com.tencent.mm:id/mm_alert_ok_btn",
+                        "index": 2,
+                        "class": "android.widget.Button",
+                        "text": "发送",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            541,
+                            1243,
+                            972,
+                            1394
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.fav.ui.FavoriteIndexUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/23_before_xml_7803358.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/23_before_img_7803544.jpg",
+            "statement": "self.e.text(music_name).long_click()",
+            "operation": {
+                "action": "long_click",
+                "widget": {
+                    "x": 65,
+                    "y": 697,
+                    "w": 319,
+                    "h": 54
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/fav_title",
+                        "resource-id": "com.tencent.mm:id/fav_title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "声声慢 (烟嗓版)",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            65,
+                            697,
+                            384,
+                            751
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.fav.ui.FavoriteIndexUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/24_before_xml_7803763.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/24_before_img_7804041.jpg",
+            "statement": "self.e.text(u\"删除\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 583,
+                    "y": 544,
+                    "w": 64,
+                    "h": 43
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/title",
+                        "resource-id": "com.tencent.mm:id/title",
+                        "index": 1,
+                        "class": "android.widget.TextView",
+                        "text": "删除",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            583,
+                            544,
+                            647,
+                            587
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.fav.ui.FavoriteIndexUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/25_before_xml_7804269.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/25_before_img_7804507.jpg",
+            "statement": "self.e.text(u\"删除\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 541,
+                    "y": 1073,
+                    "w": 431,
+                    "h": 151
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/mm_alert_ok_btn",
+                        "resource-id": "com.tencent.mm:id/mm_alert_ok_btn",
+                        "index": 2,
+                        "class": "android.widget.Button",
+                        "text": "删除",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            541,
+                            1073,
+                            972,
+                            1224
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.fav.ui.FavoriteIndexUI",
+            "xml": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/25_after_xml_7804431.xml",
+            "img": "P0.Favorites.OtherTest#test_classify_music_search_more_operation/2024061200172888-5159-042654/25_after_img_7804610.jpg"
+        }
+    ]
+}

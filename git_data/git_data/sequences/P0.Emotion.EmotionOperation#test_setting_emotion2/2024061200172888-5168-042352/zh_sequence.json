@@ -1,0 +1,157 @@
+{
+    "seq_name": "P0.Emotion.EmotionOperation#test_setting_emotion2",
+    "doc": "表情商店设置界面，我添加的表情\n:return:\n",
+    "zh_sequence": [
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Emotion.EmotionOperation#test_setting_emotion2/2024061200172888-5168-042352/00_before_xml_7473355.xml",
+            "img": "P0.Emotion.EmotionOperation#test_setting_emotion2/2024061200172888-5168-042352/00_before_img_7473451.jpg",
+            "statement": "self.device.click_on_point(target_x, target_y)",
+            "operation": {
+                "action": "click_on_point",
+                "widget": {},
+                "args": [
+                    945.0,
+                    1882.5
+                ],
+                "kwargs": {},
+                "x": 945.0,
+                "y": 1882.5,
+                "locator": {}
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Emotion.EmotionOperation#test_setting_emotion2/2024061200172888-5168-042352/01_before_xml_7473561.xml",
+            "img": "P0.Emotion.EmotionOperation#test_setting_emotion2/2024061200172888-5168-042352/01_before_img_7473690.jpg",
+            "statement": "self.e.text(\"表情\").click(is_scroll=True)",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 151,
+                    "y": 1679,
+                    "w": 92,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {
+                    "is_scroll": true
+                },
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "android:id/title",
+                        "resource-id": "android:id/title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "表情",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            151,
+                            1679,
+                            243,
+                            1741
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.emoji.ui.v2.EmojiStoreV2UI",
+            "xml": "P0.Emotion.EmotionOperation#test_setting_emotion2/2024061200172888-5168-042352/02_before_xml_7473957.xml",
+            "img": "P0.Emotion.EmotionOperation#test_setting_emotion2/2024061200172888-5168-042352/02_before_img_7474203.jpg",
+            "statement": "self.e.rid('com.tencent.mm:id/action_option_icon_right').click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 950,
+                    "y": 72,
+                    "w": 130,
+                    "h": 130
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/action_option_icon_right",
+                        "resource-id": "com.tencent.mm:id/action_option_icon_right",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "管理",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            950,
+                            72,
+                            1080,
+                            202
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.emoji.ui.EmojiMineUI",
+            "xml": "P0.Emotion.EmotionOperation#test_setting_emotion2/2024061200172888-5168-042352/03_before_xml_7474461.xml",
+            "img": "P0.Emotion.EmotionOperation#test_setting_emotion2/2024061200172888-5168-042352/03_before_img_7474716.jpg",
+            "statement": "self.e.text(\"添加的单个表情\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 173,
+                    "y": 673,
+                    "w": 322,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "android:id/title",
+                        "resource-id": "android:id/title",
+                        "index": 1,
+                        "class": "android.widget.TextView",
+                        "text": "添加的单个表情",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            173,
+                            673,
+                            495,
+                            735
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.emoji.ui.EmojiCustomUI",
+            "xml": "P0.Emotion.EmotionOperation#test_setting_emotion2/2024061200172888-5168-042352/03_after_xml_7474586.xml",
+            "img": "P0.Emotion.EmotionOperation#test_setting_emotion2/2024061200172888-5168-042352/03_after_img_7474774.jpg"
+        }
+    ]
+}

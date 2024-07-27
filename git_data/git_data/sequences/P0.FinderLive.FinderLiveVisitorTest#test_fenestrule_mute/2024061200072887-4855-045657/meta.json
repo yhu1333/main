@@ -1,0 +1,141 @@
+[
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "直播",
+            "class": "android.widget.TextView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[151,572][243,634]",
+            "resource-id": "android:id/title",
+            "_cache_id": "166592867"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "3",
+            "text": "",
+            "class": "android.widget.FrameLayout",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "true",
+            "enabled": "true",
+            "focusable": "true",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "true",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[556,657][1048,1313]",
+            "resource-id": "com.tencent.mm:id/nearby_live_convert_root",
+            "_cache_id": "21588372"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "",
+            "class": "android.widget.ImageView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[863,150][928,215]",
+            "resource-id": "com.tencent.mm:id/live_visitor_mini_window_btn",
+            "_cache_id": "114762017"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "NAF": "true",
+            "index": "3",
+            "text": "",
+            "class": "android.widget.ImageView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "true",
+            "enabled": "true",
+            "focusable": "true",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[178,603][254,679]",
+            "resource-id": "com.tencent.mm:id/iv_finder_live_mini_view_listen_only",
+            "_cache_id": "103234489"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "",
+            "class": "android.widget.FrameLayout",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[16,603][254,959]",
+            "resource-id": "com.tencent.mm:id/ball_container",
+            "_cache_id": "236404026"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "2",
+            "text": "观看直播画面",
+            "class": "android.widget.TextView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "true",
+            "enabled": "true",
+            "focusable": "true",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[337,680][743,806]",
+            "resource-id": "com.tencent.mm:id/finder_live_see_video_stream_btn",
+            "_cache_id": "47042498"
+        }
+    }
+]

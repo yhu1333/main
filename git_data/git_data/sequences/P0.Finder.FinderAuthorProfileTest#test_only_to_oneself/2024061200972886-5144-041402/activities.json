@@ -1,0 +1,34 @@
+[
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.ui.conversation.MainUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.ui.conversation.MainUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.plugin.finder.feed.ui.FinderProfileUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.plugin.finder.feed.ui.FinderProfileUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.plugin.finder.feed.ui.FinderProfileTimeLineUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.plugin.finder.feed.ui.FinderProfileTimeLineUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.plugin.finder.feed.ui.FinderProfileTimeLineUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.plugin.finder.feed.ui.FinderProfileTimeLineUI"
+    ]
+]

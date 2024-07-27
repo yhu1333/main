@@ -1,0 +1,557 @@
+{
+    "seq_name": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel",
+    "doc": "查找聊天记录-删除音乐\n搜索指定内容-音乐，并对音乐进行删除操作\n:return:\n",
+    "en_sequence": [
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/00_before_xml_9321647.xml",
+            "img": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/00_before_img_9321733.jpg",
+            "statement": "self.e.text_contains(chat_name).long_click()",
+            "operation": {
+                "action": "long_click",
+                "widget": {
+                    "x": 205,
+                    "y": 434,
+                    "w": 656,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/nickname_tv",
+                        "resource-id": "com.tencent.mm:id/nickname_tv",
+                        "index": 0,
+                        "class": "android.view.View",
+                        "text": "aaui_099_202211",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            205,
+                            434,
+                            861,
+                            496
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/01_before_xml_9321849.xml",
+            "img": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/01_before_img_9321932.jpg",
+            "statement": "self.e.text(\"删除该聊天\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 504,
+                    "y": 977,
+                    "w": 440,
+                    "h": 151
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "",
+                        "resource-id": "",
+                        "index": 3,
+                        "class": "android.widget.TextView",
+                        "text": "Delete Chat",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            504,
+                            977,
+                            944,
+                            1128
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/02_before_xml_9322049.xml",
+            "img": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/02_before_img_9322163.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/mm_alert_ok_btn\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 541,
+                    "y": 1067,
+                    "w": 431,
+                    "h": 151
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/mm_alert_ok_btn",
+                        "resource-id": "com.tencent.mm:id/mm_alert_ok_btn",
+                        "index": 2,
+                        "class": "android.widget.Button",
+                        "text": "Delete",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            541,
+                            1067,
+                            972,
+                            1218
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/03_before_xml_9322277.xml",
+            "img": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/03_before_img_9322364.jpg",
+            "statement": "self.e.text_contains(self.first_contact_name).click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 205,
+                    "y": 240,
+                    "w": 656,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/nickname_tv",
+                        "resource-id": "com.tencent.mm:id/nickname_tv",
+                        "index": 0,
+                        "class": "android.view.View",
+                        "text": "aaui_099_202211",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            205,
+                            240,
+                            861,
+                            302
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/04_before_xml_9322475.xml",
+            "img": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/04_before_img_9322578.jpg",
+            "statement": "self.e.rid('com.tencent.mm:id/action_option_icon').click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 929,
+                    "y": 72,
+                    "w": 151,
+                    "h": 130
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/action_option_icon",
+                        "resource-id": "com.tencent.mm:id/action_option_icon",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "More Info",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            929,
+                            72,
+                            1080,
+                            202
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.SingleChatInfoUI",
+            "xml": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/05_before_xml_9322691.xml",
+            "img": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/05_before_img_9322795.jpg",
+            "statement": "self.e.text(u\"查找聊天记录\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 43,
+                    "y": 577,
+                    "w": 405,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "android:id/title",
+                        "resource-id": "android:id/title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "Search Chat History",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            43,
+                            577,
+                            448,
+                            639
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.chatting.search.multi.FTSChattingConvMultiTabUI",
+            "xml": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/06_before_xml_9322890.xml",
+            "img": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/06_before_img_9322994.jpg",
+            "statement": "self.e.text('音乐与音频').click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 419,
+                    "y": 619,
+                    "w": 242,
+                    "h": 101
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/title",
+                        "resource-id": "com.tencent.mm:id/title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "Music & Audio",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            419,
+                            619,
+                            661,
+                            720
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.chatting.gallery.MediaHistoryListUI",
+            "xml": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/07_before_xml_9323145.xml",
+            "img": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/07_before_img_9323247.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/fav_title\").long_click()",
+            "operation": {
+                "action": "long_click",
+                "widget": {
+                    "x": 248,
+                    "y": 416,
+                    "w": 319,
+                    "h": 54
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/fav_title",
+                        "resource-id": "com.tencent.mm:id/fav_title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "声声慢 (烟嗓版)",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            248,
+                            416,
+                            567,
+                            470
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.chatting.gallery.MediaHistoryListUI",
+            "xml": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/08_before_xml_9323352.xml",
+            "img": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/08_before_img_9323433.jpg",
+            "statement": "self.e.text(\"删除\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 476,
+                    "y": 1639,
+                    "w": 128,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/title",
+                        "resource-id": "com.tencent.mm:id/title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "Delete",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            476,
+                            1639,
+                            604,
+                            1701
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.chatting.gallery.MediaHistoryListUI",
+            "xml": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/09_before_xml_9323530.xml",
+            "img": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/09_before_img_9323654.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/mm_alert_ok_btn\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 541,
+                    "y": 1037,
+                    "w": 431,
+                    "h": 151
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/mm_alert_ok_btn",
+                        "resource-id": "com.tencent.mm:id/mm_alert_ok_btn",
+                        "index": 2,
+                        "class": "android.widget.Button",
+                        "text": "Delete",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            541,
+                            1037,
+                            972,
+                            1188
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.chatting.gallery.MediaHistoryListUI",
+            "xml": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/10_before_xml_9323749.xml",
+            "img": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/10_before_img_9323860.jpg",
+            "statement": "self.e.text(u\"取消\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 855,
+                    "y": 106,
+                    "w": 203,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/cancel_btn",
+                        "resource-id": "com.tencent.mm:id/cancel_btn",
+                        "index": 1,
+                        "class": "android.widget.TextView",
+                        "text": "Cancel",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            855,
+                            106,
+                            1058,
+                            168
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.chatting.search.multi.FTSChattingConvMultiTabUI",
+            "xml": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/11_before_xml_9323997.xml",
+            "img": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/11_before_img_9324126.jpg",
+            "statement": "self.e.text(u\"取消\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 877,
+                    "y": 84,
+                    "w": 203,
+                    "h": 106
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/cancel_btn",
+                        "resource-id": "com.tencent.mm:id/cancel_btn",
+                        "index": 1,
+                        "class": "android.widget.TextView",
+                        "text": "Cancel",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "Cancel button",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            877,
+                            84,
+                            1080,
+                            190
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.SingleChatInfoUI",
+            "xml": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/12_before_xml_9324242.xml",
+            "img": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/12_before_img_9324369.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/actionbar_up_indicator_btn\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 22,
+                    "y": 72,
+                    "w": 65,
+                    "h": 130
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/actionbar_up_indicator_btn",
+                        "resource-id": "com.tencent.mm:id/actionbar_up_indicator_btn",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "Back",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            22,
+                            72,
+                            87,
+                            202
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.LauncherUI",
+            "xml": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/12_after_xml_9324296.xml",
+            "img": "P0.Chatting.ChattingSetProfile#test_search_music_in_chat_opdel/2024071000773271-3228-214644/12_after_img_9324427.jpg"
+        }
+    ]
+}

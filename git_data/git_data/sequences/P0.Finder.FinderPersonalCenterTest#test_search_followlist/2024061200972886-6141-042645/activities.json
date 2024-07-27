@@ -1,0 +1,26 @@
+[
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.ui.conversation.MainUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.ui.conversation.MainUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.plugin.finder.ui.FinderHomeAffinityUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.plugin.finder.ui.FinderSelfUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.plugin.finder.ui.FinderFollowListUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.plugin.finder.search.FinderContactSearchIncludeFollowUI"
+    ]
+]

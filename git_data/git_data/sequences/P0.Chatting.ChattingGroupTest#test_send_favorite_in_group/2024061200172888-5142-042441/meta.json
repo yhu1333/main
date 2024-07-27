@@ -1,0 +1,94 @@
+[
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "群聊",
+            "class": "android.widget.TextView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[194,504][286,654]",
+            "resource-id": "com.tencent.mm:id/addressui_content",
+            "_cache_id": "2225318"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "1",
+            "text": "AA自动化测试",
+            "class": "android.widget.TextView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[205,270][1080,421]",
+            "resource-id": "com.tencent.mm:id/contactitem_nick",
+            "_cache_id": "74388384"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "",
+            "class": "android.widget.ImageButton",
+            "package": "com.tencent.mm",
+            "content-desc": "更多功能按钮，已折叠",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "true",
+            "enabled": "true",
+            "focusable": "true",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[972,1802][1058,1888]",
+            "resource-id": "com.tencent.mm:id/chatting_attach_btn",
+            "_cache_id": "155953907"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "1",
+            "text": "我的收藏",
+            "class": "android.widget.TextView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[846,1761][974,1804]",
+            "resource-id": "com.tencent.mm:id/app_grid_item_name",
+            "_cache_id": "227069845"
+        }
+    }
+]

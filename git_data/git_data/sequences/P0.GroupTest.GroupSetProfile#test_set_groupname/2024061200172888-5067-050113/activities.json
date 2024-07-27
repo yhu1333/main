@@ -1,0 +1,22 @@
+[
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.ui.conversation.MainUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.ui.conversation.MainUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.chatroom.ui.ChatroomInfoUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.chatroom.ui.ChatroomInfoUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.ui.LauncherUI"
+    ]
+]

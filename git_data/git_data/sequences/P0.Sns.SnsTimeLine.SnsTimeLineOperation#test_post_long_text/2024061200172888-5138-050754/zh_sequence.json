@@ -1,0 +1,325 @@
+{
+    "seq_name": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_post_long_text",
+    "doc": "朋友圈发送超长文本\n点击“全文”\n点击“收起”\n:return:\n",
+    "zh_sequence": [
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_post_long_text/2024061200172888-5138-050754/00_before_xml_157061.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_post_long_text/2024061200172888-5138-050754/00_before_img_157234.jpg",
+            "statement": "self.device.click_on_point(target_x, target_y)",
+            "operation": {
+                "action": "click_on_point",
+                "widget": {},
+                "args": [
+                    675.0,
+                    1882.5
+                ],
+                "kwargs": {},
+                "x": 675.0,
+                "y": 1882.5,
+                "locator": {}
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_post_long_text/2024061200172888-5138-050754/01_before_xml_157461.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_post_long_text/2024061200172888-5138-050754/01_before_img_157708.jpg",
+            "statement": "self.e.text(\"朋友圈\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 151,
+                    "y": 247,
+                    "w": 138,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "android:id/title",
+                        "resource-id": "android:id/title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "朋友圈",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            151,
+                            247,
+                            289,
+                            309
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.sns.ui.improve.ImproveSnsTimelineUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_post_long_text/2024061200172888-5138-050754/02_before_xml_157855.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_post_long_text/2024061200172888-5138-050754/02_before_img_158041.jpg",
+            "statement": "if not self.e.rid('com.tencent.mm:id/action_option_icon').click_if_exists():",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 929,
+                    "y": 72,
+                    "w": 151,
+                    "h": 130
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/action_option_icon",
+                        "resource-id": "com.tencent.mm:id/action_option_icon",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "拍照分享",
+                        "clickable": true,
+                        "long_clickable": true,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            929,
+                            72,
+                            1080,
+                            202
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.sns.ui.improve.ImproveSnsTimelineUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_post_long_text/2024061200172888-5138-050754/03_before_xml_158169.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_post_long_text/2024061200172888-5138-050754/03_before_img_158295.jpg",
+            "statement": "if not self.e.text(\"取消\").click_if_exists(5):",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 0,
+                    "y": 1769,
+                    "w": 1080,
+                    "h": 151
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/cancel_text",
+                        "resource-id": "com.tencent.mm:id/cancel_text",
+                        "index": 1,
+                        "class": "android.widget.TextView",
+                        "text": "取消",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            0,
+                            1769,
+                            1080,
+                            1920
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.sns.ui.improve.ImproveSnsTimelineUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_post_long_text/2024061200172888-5138-050754/04_before_xml_158558.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_post_long_text/2024061200172888-5138-050754/04_before_img_158719.jpg",
+            "statement": "self.e.desc('拍照分享').long_click()",
+            "operation": {
+                "action": "long_click",
+                "widget": {
+                    "x": 929,
+                    "y": 72,
+                    "w": 151,
+                    "h": 130
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/action_option_icon",
+                        "resource-id": "com.tencent.mm:id/action_option_icon",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "拍照分享",
+                        "clickable": true,
+                        "long_clickable": true,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            929,
+                            72,
+                            1080,
+                            202
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.sns.ui.SnsUploadUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_post_long_text/2024061200172888-5138-050754/05_before_xml_158962.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_post_long_text/2024061200172888-5138-050754/05_before_img_159106.jpg",
+            "statement": "self.e.cls_name(\"android.widget.EditText\").enter(text)  # com.tencent.mm.ui.widget.cedit.edit.CustomEditText",
+            "operation": {
+                "action": "enter",
+                "widget": {
+                    "x": 86,
+                    "y": 262,
+                    "w": 908,
+                    "h": 116
+                },
+                "args": [
+                    "iHVLMdD9TYTDSZ6Xz9oYcibYwLACLPY85yjm4mcr9q4W4CKa73NBN9uJtOcUENnI3puAqqA2q8YFLKXxPzqmYdXFo8HgNe5UsEw5CplQIvZe4qkkCQOODgALlx0LoquFz5eoG7zBC0egpnNNmUb7PwbvHxOmLR0Ew5DDkheI5WRjcC0v4pMrgWwjRuxza9BjPv0KjoCGSVB6yRPfriWZhSt5AfrlM6YCVn05iSPaGSX4MJDE0UWa9OU40K3O1uZ5hdBk3RsWP9d0CDlxQHkHq0vlOrCIOWwuVHtuIaNQtF4MvL3f9QnQysDmjoZN3qX4E7qbPxrOqKpRnE47yiRP8IAiJYOm1meqzkX08UVjMc0SuZ9FR05FvULnUiY0JyxVOU98djjcFjHKcPnPw"
+                ],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/sns_desc_tv",
+                        "resource-id": "com.tencent.mm:id/sns_desc_tv",
+                        "index": 0,
+                        "class": "android.widget.EditText",
+                        "text": "这一刻的想法...",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": true,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            86,
+                            262,
+                            994,
+                            378
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.sns.ui.SnsUploadUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_post_long_text/2024061200172888-5138-050754/06_before_xml_159362.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_post_long_text/2024061200172888-5138-050754/06_before_img_159527.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/action_option_btn\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 897,
+                    "y": 94,
+                    "w": 140,
+                    "h": 86
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/action_option_btn",
+                        "resource-id": "com.tencent.mm:id/action_option_btn",
+                        "index": 0,
+                        "class": "android.widget.Button",
+                        "text": "发表",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": true,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            897,
+                            94,
+                            1037,
+                            180
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.sns.ui.improve.ImproveSnsTimelineUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_post_long_text/2024061200172888-5138-050754/07_before_xml_159761.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_post_long_text/2024061200172888-5138-050754/07_before_img_159878.jpg",
+            "statement": "self.e.text_contains(text[:20]).click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 189,
+                    "y": 565,
+                    "w": 853,
+                    "h": 290
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/desc_tv",
+                        "resource-id": "com.tencent.mm:id/desc_tv",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "iHVLMdD9TYTDSZ6Xz9oYcibYwLACLPY85yjm4mcr9q4W4CKa73NBN9uJtOcUENnI3puAqqA2q8YFLKXxPzqmYdXFo8HgNe5UsEw5CplQIvZe4qkkCQOODgALlx0LoquFz5eoG7zBC0egpnNNmUb7PwbvHxOmLR0Ew5DDkheI5WRjcC0v4pMrgWwjRuxza9BjPv0KjoCGSVB6yRPfriWZhSt5AfrlM6YCVn05iSPaGSX4MJDE0UWa9OU40K3O1uZ5hdBk3RsWP9d0CDlxQHkHq0vlOrCIOWwuVHtuIaNQtF4MvL3f9QnQysDmjoZN3qX4E7qbPxrOqKpRnE47yiRP8IAiJYOm1meqzkX08UVjMc0SuZ9FR05FvULnUiY0JyxVOU98djjcFjHKcPnPw",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": true,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            189,
+                            565,
+                            1042,
+                            855
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.sns.ui.improve.ImproveSnsTimelineUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_post_long_text/2024061200172888-5138-050754/07_after_xml_159819.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_post_long_text/2024061200172888-5138-050754/07_after_img_160023.jpg"
+        }
+    ]
+}

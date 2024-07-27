@@ -1,0 +1,48 @@
+[
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "Channels",
+            "class": "android.widget.TextView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[151,421][340,483]",
+            "resource-id": "android:id/title",
+            "_cache_id": "5611774"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "",
+            "class": "android.widget.ImageView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[124,81][186,143]",
+            "resource-id": "com.tencent.mm:id/float_ball_btn",
+            "_cache_id": "126942412"
+        }
+    }
+]

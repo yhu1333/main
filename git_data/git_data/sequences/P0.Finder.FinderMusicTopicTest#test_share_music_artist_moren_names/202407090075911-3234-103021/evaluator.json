@@ -1,0 +1,64 @@
+{
+    "actions": [
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "",
+                "content-desc": "",
+                "text": ""
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/chatting_click_area",
+                "content-desc": "\u5c0f\u74f6\u5b50\u5fae\u5fae\u4e00\u7b11 #\u7f8e\u7f8e\u7f8e",
+                "text": ""
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/icon_feed_comment_frame",
+                "content-desc": "",
+                "text": ""
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/finder_feed_ad_title",
+                "content-desc": "",
+                "text": "Background Music: \u7559\u4e0d\u4f4f\u4f60\u7684\u6e29\u67d4 \u00b7 \u674e\u6cfd\u575a and other artists (2)"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        },
+        {
+            "type": "findaction",
+            "match_type": "equal",
+            "match_rules": {
+                "action_type": "click",
+                "resource-id": "com.tencent.mm:id/music_topic_music_artist_names",
+                "content-desc": "",
+                "text": "\u674e\u6cfd\u575a and other artists (2)"
+            },
+            "check_type": "equal",
+            "check_rules": {}
+        }
+    ]
+}

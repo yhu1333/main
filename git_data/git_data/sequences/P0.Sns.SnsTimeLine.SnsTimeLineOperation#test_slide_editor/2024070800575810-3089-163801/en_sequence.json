@@ -1,0 +1,367 @@
+{
+    "seq_name": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_slide_editor",
+    "doc": "朋友圈发表长文本文字验证编辑框可滑动\n",
+    "en_sequence": [
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_slide_editor/2024070800575810-3089-163801/00_before_xml_7974975.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_slide_editor/2024070800575810-3089-163801/00_before_img_7975149.jpg",
+            "statement": "self.device.click_on_point(target_x, target_y)",
+            "operation": {
+                "action": "click_on_point",
+                "widget": {},
+                "args": [
+                    674.5,
+                    1882.5
+                ],
+                "kwargs": {},
+                "x": 674.5,
+                "y": 1882.5,
+                "locator": {}
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_slide_editor/2024070800575810-3089-163801/01_before_xml_7975278.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_slide_editor/2024070800575810-3089-163801/01_before_img_7975409.jpg",
+            "statement": "self.e.text(\"朋友圈\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 151,
+                    "y": 247,
+                    "w": 194,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "android:id/title",
+                        "resource-id": "android:id/title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "Moments",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            151,
+                            247,
+                            345,
+                            309
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.sns.ui.improve.ImproveSnsTimelineUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_slide_editor/2024070800575810-3089-163801/02_before_xml_7975523.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_slide_editor/2024070800575810-3089-163801/02_before_img_7975640.jpg",
+            "statement": "if not self.e.rid('com.tencent.mm:id/action_option_icon').click_if_exists():",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 929,
+                    "y": 72,
+                    "w": 151,
+                    "h": 130
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/action_option_icon",
+                        "resource-id": "com.tencent.mm:id/action_option_icon",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "Share Photo",
+                        "clickable": true,
+                        "long_clickable": true,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            929,
+                            72,
+                            1080,
+                            202
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.sns.ui.improve.ImproveSnsTimelineUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_slide_editor/2024070800575810-3089-163801/03_before_xml_7975771.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_slide_editor/2024070800575810-3089-163801/03_before_img_7975892.jpg",
+            "statement": "if not self.e.text(\"取消\").click_if_exists(5):",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 0,
+                    "y": 1769,
+                    "w": 1080,
+                    "h": 151
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/cancel_text",
+                        "resource-id": "com.tencent.mm:id/cancel_text",
+                        "index": 1,
+                        "class": "android.widget.TextView",
+                        "text": "Cancel",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            0,
+                            1769,
+                            1080,
+                            1920
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.sns.ui.improve.ImproveSnsTimelineUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_slide_editor/2024070800575810-3089-163801/04_before_xml_7976073.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_slide_editor/2024070800575810-3089-163801/04_before_img_7976187.jpg",
+            "statement": "self.e.desc('拍照分享').long_click()",
+            "operation": {
+                "action": "long_click",
+                "widget": {
+                    "x": 929,
+                    "y": 72,
+                    "w": 151,
+                    "h": 130
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/action_option_icon",
+                        "resource-id": "com.tencent.mm:id/action_option_icon",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "Share Photo",
+                        "clickable": true,
+                        "long_clickable": true,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            929,
+                            72,
+                            1080,
+                            202
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.sns.ui.SnsLongMsgUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_slide_editor/2024070800575810-3089-163801/05_before_xml_7976305.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_slide_editor/2024070800575810-3089-163801/05_before_img_7976422.jpg",
+            "statement": "self.e.text(\"我知道了\").click_if_exists()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 378,
+                    "y": 1682,
+                    "w": 324,
+                    "h": 130
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/know_btn",
+                        "resource-id": "com.tencent.mm:id/know_btn",
+                        "index": 1,
+                        "class": "android.widget.Button",
+                        "text": "OK",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            378,
+                            1682,
+                            702,
+                            1812
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.sns.ui.SnsUploadUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_slide_editor/2024070800575810-3089-163801/06_before_xml_7976571.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_slide_editor/2024070800575810-3089-163801/06_before_img_7976673.jpg",
+            "statement": "self.e.cls_name(\"android.widget.EditText\").enter(text)  # com.tencent.mm.ui.widget.cedit.edit.CustomEditText",
+            "operation": {
+                "action": "enter",
+                "widget": {
+                    "x": 86,
+                    "y": 262,
+                    "w": 908,
+                    "h": 116
+                },
+                "args": [
+                    "迪迦LHxnBP4p9eXWI15fu2ka4lpGaDqfFhSFBLxGfw78kCWx5Aya4AabC7FNCzggTSEkmtYVJAoQ87vm9TCRMsUKHFLKyFsIxS3ANmcnXJdnA0H3cO3cXT5kEifZmtEpen9p198BfvCxr6AjWXCmxqlnoD98A4y9RGAvhbnFciXVncXbtuhoKaHqUkMGDxW15Y7seBBnfoNCxggd3KXJjGUz4EH64p1MVfmXDp7ELqQKfvNU6KsQzFgVZzRV4FyKXPCnAIVpH3kiUBtG2eIfh0ufJz3GEHIImAFB2vE3XeJhF1MCAumUTSjDdRBSC7mGgqhedpfBCklhhoxpbjIbS6cQD1oXxCaN6dJpMI9nDZ58uUV695fTts9se1KObqVSOfGrRfkLxFImzc4KktQukZWHmG09vhBJIqjuCBjXI3Y1wYKjSi8ec6ujncUQNx1A1lqzdJfefAwONzYTiUlIvMEVPFIWrnbFcYV3C4bTUSdy6HsiRQ7jNx58AMQy8LjCWBEPLkNWuFNzcBvm2LFR0oWifLM5ZWoDr5kkivBXcQNlYOAjERbTBlhoDaa6DsLS4ukBanPa5sTXzyqdIfeyNO9Kll5x3mFBCsyIBxcmyKM8xPH2JNDgTt1pxptdbf6PzRTcET5RcenErYYVgApZHJdmitEFKjAxZUAl4tUFmi72hLWYXuXvrtWvr8ER0cZeyHshTcNcAzg3apKEEceAFohzSVIHrLKioZ6e61arVMCIzDbYBp8BbYGbEEvll21roQA2M8Wb6c97byllHMuW5US4LoQa8P8zakh9V4WLELu5dszvIi7iK4inb4DyfYiKMF4MmG7R33s9jwkH7kvPXqO9RPYZLNaU7SGnqfTEcmXywMYOP8h4NEwZxXuZcFTuzN43IGxT8qcrb6ZhNSzAFTy67G8eRxNdTc1tzznmyw78Rk5AvgjIfTHvj7AgWvkCCWH6sW35sJOK2O4arfwMOZB5xhnVWbJV75iT0nSUMoe5"
+                ],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/sns_desc_tv",
+                        "resource-id": "com.tencent.mm:id/sns_desc_tv",
+                        "index": 0,
+                        "class": "android.widget.EditText",
+                        "text": "Say something...",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": true,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            86,
+                            262,
+                            994,
+                            378
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.sns.ui.SnsUploadUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_slide_editor/2024070800575810-3089-163801/07_before_xml_7976797.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_slide_editor/2024070800575810-3089-163801/07_before_img_7976938.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/actionbar_up_indicator\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 0,
+                    "y": 72,
+                    "w": 109,
+                    "h": 130
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/actionbar_up_indicator",
+                        "resource-id": "com.tencent.mm:id/actionbar_up_indicator",
+                        "index": 1,
+                        "class": "android.widget.Button",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            0,
+                            72,
+                            109,
+                            202
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.sns.ui.SnsUploadUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_slide_editor/2024070800575810-3089-163801/08_before_xml_7977130.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_slide_editor/2024070800575810-3089-163801/08_before_img_7977282.jpg",
+            "statement": "self.e.text(u\"不保留\").enabled(True).click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 108,
+                    "y": 1037,
+                    "w": 432,
+                    "h": 151
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/mm_alert_cancel_btn",
+                        "resource-id": "com.tencent.mm:id/mm_alert_cancel_btn",
+                        "index": 0,
+                        "class": "android.widget.Button",
+                        "text": "Discard",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            108,
+                            1037,
+                            540,
+                            1188
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.sns.ui.improve.ImproveSnsTimelineUI",
+            "xml": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_slide_editor/2024070800575810-3089-163801/08_after_xml_7977228.xml",
+            "img": "P0.Sns.SnsTimeLine.SnsTimeLineOperation#test_slide_editor/2024070800575810-3089-163801/08_after_img_7977346.jpg"
+        }
+    ]
+}

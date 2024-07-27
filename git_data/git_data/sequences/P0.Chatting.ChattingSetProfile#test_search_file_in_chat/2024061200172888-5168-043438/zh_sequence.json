@@ -1,0 +1,265 @@
+{
+    "seq_name": "P0.Chatting.ChattingSetProfile#test_search_file_in_chat",
+    "doc": "查找聊天记录-文件\n搜索指定内容-文件\n:return:\n",
+    "zh_sequence": [
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Chatting.ChattingSetProfile#test_search_file_in_chat/2024061200172888-5168-043438/00_before_xml_8130871.xml",
+            "img": "P0.Chatting.ChattingSetProfile#test_search_file_in_chat/2024061200172888-5168-043438/00_before_img_8131117.jpg",
+            "statement": "self.e.text_contains(self.first_contact_name).click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 205,
+                    "y": 628,
+                    "w": 656,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/nickname_tv",
+                        "resource-id": "com.tencent.mm:id/nickname_tv",
+                        "index": 0,
+                        "class": "android.view.View",
+                        "text": "aaui_099_202211",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            205,
+                            628,
+                            861,
+                            690
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Chatting.ChattingSetProfile#test_search_file_in_chat/2024061200172888-5168-043438/01_before_xml_8131373.xml",
+            "img": "P0.Chatting.ChattingSetProfile#test_search_file_in_chat/2024061200172888-5168-043438/01_before_img_8131616.jpg",
+            "statement": "self.e.rid('com.tencent.mm:id/action_option_icon').click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 929,
+                    "y": 72,
+                    "w": 151,
+                    "h": 130
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/action_option_icon",
+                        "resource-id": "com.tencent.mm:id/action_option_icon",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "更多信息",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            929,
+                            72,
+                            1080,
+                            202
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.SingleChatInfoUI",
+            "xml": "P0.Chatting.ChattingSetProfile#test_search_file_in_chat/2024061200172888-5168-043438/02_before_xml_8131866.xml",
+            "img": "P0.Chatting.ChattingSetProfile#test_search_file_in_chat/2024061200172888-5168-043438/02_before_img_8132033.jpg",
+            "statement": "self.e.text(u\"查找聊天记录\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 43,
+                    "y": 577,
+                    "w": 276,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "android:id/title",
+                        "resource-id": "android:id/title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "查找聊天记录",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            43,
+                            577,
+                            319,
+                            639
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.chatting.search.multi.FTSChattingConvMultiTabUI",
+            "xml": "P0.Chatting.ChattingSetProfile#test_search_file_in_chat/2024061200172888-5168-043438/03_before_xml_8132276.xml",
+            "img": "P0.Chatting.ChattingSetProfile#test_search_file_in_chat/2024061200172888-5168-043438/03_before_img_8132390.jpg",
+            "statement": "self.e.text(\"文件\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 699,
+                    "y": 454,
+                    "w": 190,
+                    "h": 52
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/title",
+                        "resource-id": "com.tencent.mm:id/title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "文件",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            699,
+                            454,
+                            889,
+                            506
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.chatting.gallery.MediaHistoryListUI",
+            "xml": "P0.Chatting.ChattingSetProfile#test_search_file_in_chat/2024061200172888-5168-043438/04_before_xml_8132576.xml",
+            "img": "P0.Chatting.ChattingSetProfile#test_search_file_in_chat/2024061200172888-5168-043438/04_before_img_8132688.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/edittext\").enter(filename)",
+            "operation": {
+                "action": "enter",
+                "widget": {
+                    "x": 118,
+                    "y": 106,
+                    "w": 708,
+                    "h": 62
+                },
+                "args": [
+                    "TESTv9.21.2129.0.zip"
+                ],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/edittext",
+                        "resource-id": "com.tencent.mm:id/edittext",
+                        "index": 1,
+                        "class": "android.widget.EditText",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": true,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            118,
+                            106,
+                            826,
+                            168
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.chatting.gallery.MediaHistoryListUI",
+            "xml": "P0.Chatting.ChattingSetProfile#test_search_file_in_chat/2024061200172888-5168-043438/05_before_xml_8132972.xml",
+            "img": "P0.Chatting.ChattingSetProfile#test_search_file_in_chat/2024061200172888-5168-043438/05_before_img_8133111.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/status_btn\").click()  #关闭搜索",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 826,
+                    "y": 110,
+                    "w": 54,
+                    "h": 54
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/status_btn",
+                        "resource-id": "com.tencent.mm:id/status_btn",
+                        "index": 2,
+                        "class": "android.widget.ImageButton",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "清除",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            826,
+                            110,
+                            880,
+                            164
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.chatting.gallery.MediaHistoryListUI",
+            "xml": "P0.Chatting.ChattingSetProfile#test_search_file_in_chat/2024061200172888-5168-043438/05_after_xml_8133054.xml",
+            "img": "P0.Chatting.ChattingSetProfile#test_search_file_in_chat/2024061200172888-5168-043438/05_after_img_8133215.jpg"
+        }
+    ]
+}

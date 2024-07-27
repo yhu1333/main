@@ -1,0 +1,34 @@
+[
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.ui.conversation.MainUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.ui.conversation.MainUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.plugin.finder.ui.FinderHomeAffinityUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.plugin.finder.ui.FinderSelfUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.plugin.recordvideo.activity.MMRecordUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.mj_publisher.finder.movie_composing.MovieComposingUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.plugin.finder.ui.FinderPostUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.plugin.finder.ui.FinderHomeAffinityUI"
+    ]
+]

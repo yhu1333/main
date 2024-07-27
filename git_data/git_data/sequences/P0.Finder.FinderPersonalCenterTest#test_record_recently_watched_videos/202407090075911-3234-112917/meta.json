@@ -1,0 +1,142 @@
+[
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "Channels",
+            "class": "android.widget.TextView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[151,421][340,483]",
+            "resource-id": "android:id/title",
+            "_cache_id": "42109125"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "",
+            "class": "android.widget.ImageView",
+            "package": "com.tencent.mm",
+            "content-desc": "View Settings",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "true",
+            "enabled": "true",
+            "focusable": "true",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[956,60][1059,164]",
+            "resource-id": "com.tencent.mm:id/personalCenter",
+            "_cache_id": "119041999"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "1",
+            "text": "Settings",
+            "class": "android.widget.TextView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[484,226][622,278]",
+            "resource-id": "",
+            "_cache_id": "131930440"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "NAF": "true",
+            "index": "1",
+            "text": "",
+            "class": "android.view.View",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "true",
+            "enabled": "true",
+            "focusable": "true",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[899,1036][1037,1120]",
+            "resource-id": "com.tencent.mm:id/self_history_switch_btn",
+            "_cache_id": "142186536"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "Disable and clear",
+            "class": "android.widget.TextView",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[365,1639][714,1701]",
+            "resource-id": "com.tencent.mm:id/title",
+            "_cache_id": "225778854"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "NAF": "true",
+            "index": "1",
+            "text": "",
+            "class": "android.view.View",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "true",
+            "enabled": "true",
+            "focusable": "true",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "bounds": "[899,1036][1037,1120]",
+            "resource-id": "com.tencent.mm:id/self_history_switch_btn",
+            "_cache_id": "4228043"
+        }
+    }
+]

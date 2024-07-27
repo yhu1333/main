@@ -1,0 +1,201 @@
+{
+    "seq_name": "P0.Emotion.EmotionOther#test_cancel_search_emotion",
+    "doc": "表情商店点击搜索按钮\n输入内容，取消搜索\n:return:\n",
+    "zh_sequence": [
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Emotion.EmotionOther#test_cancel_search_emotion/2024061200172888-5137-041250/00_before_xml_6822069.xml",
+            "img": "P0.Emotion.EmotionOther#test_cancel_search_emotion/2024061200172888-5137-041250/00_before_img_6822260.jpg",
+            "statement": "self.device.click_on_point(target_x, target_y)",
+            "operation": {
+                "action": "click_on_point",
+                "widget": {},
+                "args": [
+                    945.0,
+                    1882.5
+                ],
+                "kwargs": {},
+                "x": 945.0,
+                "y": 1882.5,
+                "locator": {}
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Emotion.EmotionOther#test_cancel_search_emotion/2024061200172888-5137-041250/01_before_xml_6822371.xml",
+            "img": "P0.Emotion.EmotionOther#test_cancel_search_emotion/2024061200172888-5137-041250/01_before_img_6822495.jpg",
+            "statement": "self.e.text(\"表情\").click(is_scroll=True)",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 151,
+                    "y": 1402,
+                    "w": 92,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {
+                    "is_scroll": true
+                },
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "android:id/title",
+                        "resource-id": "android:id/title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "表情",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            151,
+                            1402,
+                            243,
+                            1464
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.emoji.ui.v2.EmojiStoreV2UI",
+            "xml": "P0.Emotion.EmotionOther#test_cancel_search_emotion/2024061200172888-5137-041250/02_before_xml_6822667.xml",
+            "img": "P0.Emotion.EmotionOther#test_cancel_search_emotion/2024061200172888-5137-041250/02_before_img_6822797.jpg",
+            "statement": "self.e.rid('com.tencent.mm:id/action_option_icon_left').click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 820,
+                    "y": 72,
+                    "w": 130,
+                    "h": 130
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/action_option_icon_left",
+                        "resource-id": "com.tencent.mm:id/action_option_icon_left",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "搜索",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            820,
+                            72,
+                            950,
+                            202
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.webview.ui.tools.fts.MMFTSSOSHomeWebViewUI",
+            "xml": "P0.Emotion.EmotionOther#test_cancel_search_emotion/2024061200172888-5137-041250/03_before_xml_6822968.xml",
+            "img": "P0.Emotion.EmotionOther#test_cancel_search_emotion/2024061200172888-5137-041250/03_before_img_6823088.jpg",
+            "statement": "self.e.edit_text().enter(text)",
+            "operation": {
+                "action": "enter",
+                "widget": {
+                    "x": 121,
+                    "y": 72,
+                    "w": 770,
+                    "h": 130
+                },
+                "args": [
+                    "ok"
+                ],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/edittext",
+                        "resource-id": "com.tencent.mm:id/edittext",
+                        "index": 0,
+                        "class": "android.widget.EditText",
+                        "text": "搜索表情",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": true,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            121,
+                            72,
+                            891,
+                            202
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.webview.ui.tools.fts.MMFTSSOSHomeWebViewUI",
+            "xml": "P0.Emotion.EmotionOther#test_cancel_search_emotion/2024061200172888-5137-041250/04_before_xml_6823468.xml",
+            "img": "P0.Emotion.EmotionOther#test_cancel_search_emotion/2024061200172888-5137-041250/04_before_img_6823559.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/back_btn\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 0,
+                    "y": 72,
+                    "w": 108,
+                    "h": 130
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/back_btn",
+                        "resource-id": "com.tencent.mm:id/back_btn",
+                        "index": 1,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "返回",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            0,
+                            72,
+                            108,
+                            202
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.emoji.ui.v2.EmojiStoreV2UI",
+            "xml": "P0.Emotion.EmotionOther#test_cancel_search_emotion/2024061200172888-5137-041250/04_after_xml_6823515.xml",
+            "img": "P0.Emotion.EmotionOther#test_cancel_search_emotion/2024061200172888-5137-041250/04_after_img_6823600.jpg"
+        }
+    ]
+}

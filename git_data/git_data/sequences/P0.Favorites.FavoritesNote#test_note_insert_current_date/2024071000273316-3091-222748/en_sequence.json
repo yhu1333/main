@@ -1,0 +1,537 @@
+{
+    "seq_name": "P0.Favorites.FavoritesNote#test_note_insert_current_date",
+    "doc": "收藏-笔记-插入当前时间\n",
+    "en_sequence": [
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/00_before_xml_1793253.xml",
+            "img": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/00_before_img_1793378.jpg",
+            "statement": "self.device.click_on_point(target_x, target_y)",
+            "operation": {
+                "action": "click_on_point",
+                "widget": {},
+                "args": [
+                    944.5,
+                    1882.5
+                ],
+                "kwargs": {},
+                "x": 944.5,
+                "y": 1882.5,
+                "locator": {}
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/01_before_xml_1793508.xml",
+            "img": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/01_before_img_1793638.jpg",
+            "statement": "self.e.text(u\"收藏\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 151,
+                    "y": 849,
+                    "w": 187,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "android:id/title",
+                        "resource-id": "android:id/title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "Favorites",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            151,
+                            849,
+                            338,
+                            911
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.fav.ui.FavoriteIndexUI",
+            "xml": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/02_before_xml_1793817.xml",
+            "img": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/02_before_img_1793922.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/action_option_icon\").click()  #新建笔记入口",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 929,
+                    "y": 72,
+                    "w": 151,
+                    "h": 130
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/action_option_icon",
+                        "resource-id": "com.tencent.mm:id/action_option_icon",
+                        "index": 0,
+                        "class": "android.widget.Button",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "New Note",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            929,
+                            72,
+                            1080,
+                            202
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.wenote.ui.nativenote.NoteEditorUI",
+            "xml": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/03_before_xml_1794041.xml",
+            "img": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/03_before_img_1794149.jpg",
+            "statement": "self.e.cls_name(\"android.widget.EditText\").edit_text().enter(\"aaa\")",
+            "operation": {
+                "action": "enter",
+                "widget": {
+                    "x": 0,
+                    "y": 197,
+                    "w": 1080,
+                    "h": 106
+                },
+                "args": [
+                    "aaa"
+                ],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/rte_text",
+                        "resource-id": "com.tencent.mm:id/rte_text",
+                        "index": 0,
+                        "class": "android.widget.EditText",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": true,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            0,
+                            197,
+                            1080,
+                            303
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.wenote.ui.nativenote.NoteEditorUI",
+            "xml": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/04_before_xml_1794297.xml",
+            "img": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/04_before_img_1794441.jpg",
+            "statement": "self.e.desc('添加时间').click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 891,
+                    "y": 1216,
+                    "w": 16,
+                    "h": 151
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/note_tool_bar_btn",
+                        "resource-id": "com.tencent.mm:id/note_tool_bar_btn",
+                        "index": 0,
+                        "class": "android.widget.ImageButton",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "Add time",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            891,
+                            1216,
+                            907,
+                            1367
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.wenote.ui.nativenote.NoteEditorUI",
+            "xml": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/05_before_xml_1794586.xml",
+            "img": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/05_before_img_1794700.jpg",
+            "statement": "self.e.desc(\"返回\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 22,
+                    "y": 72,
+                    "w": 64,
+                    "h": 130
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/actionbar_up_indicator_btn",
+                        "resource-id": "com.tencent.mm:id/actionbar_up_indicator_btn",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "Back",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            22,
+                            72,
+                            86,
+                            202
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.fav.ui.FavoriteIndexUI",
+            "xml": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/06_before_xml_1794822.xml",
+            "img": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/06_before_img_1794951.jpg",
+            "statement": "self.e.desc(\"返回\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 22,
+                    "y": 72,
+                    "w": 65,
+                    "h": 130
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/actionbar_up_indicator_btn",
+                        "resource-id": "com.tencent.mm:id/actionbar_up_indicator_btn",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "Back",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            22,
+                            72,
+                            87,
+                            202
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/07_before_xml_1795078.xml",
+            "img": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/07_before_img_1795226.jpg",
+            "statement": "self.e.text(\"收藏\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 151,
+                    "y": 849,
+                    "w": 187,
+                    "h": 62
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "android:id/title",
+                        "resource-id": "android:id/title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "Favorites",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            151,
+                            849,
+                            338,
+                            911
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.fav.ui.FavoriteIndexUI",
+            "xml": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/08_before_xml_1795435.xml",
+            "img": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/08_before_img_1795566.jpg",
+            "statement": "self.e.text_contains(\"aaa\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 65,
+                    "y": 525,
+                    "w": 447,
+                    "h": 54
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/fav_record_title",
+                        "resource-id": "com.tencent.mm:id/fav_record_title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "aaa2024/07/10 22:28",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            65,
+                            525,
+                            512,
+                            579
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.wenote.ui.nativenote.NoteEditorUI",
+            "xml": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/09_before_xml_1795703.xml",
+            "img": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/09_before_img_1795819.jpg",
+            "statement": "self.e.desc(\"返回\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 22,
+                    "y": 72,
+                    "w": 64,
+                    "h": 130
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/actionbar_up_indicator_btn",
+                        "resource-id": "com.tencent.mm:id/actionbar_up_indicator_btn",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "Back",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            22,
+                            72,
+                            86,
+                            202
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.fav.ui.FavoriteIndexUI",
+            "xml": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/10_before_xml_1795948.xml",
+            "img": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/10_before_img_1796070.jpg",
+            "statement": "self.e.text_contains(\"aaa\").long_click(5000)",
+            "operation": {
+                "action": "long_click",
+                "widget": {
+                    "x": 65,
+                    "y": 525,
+                    "w": 447,
+                    "h": 54
+                },
+                "args": [
+                    5000
+                ],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/fav_record_title",
+                        "resource-id": "com.tencent.mm:id/fav_record_title",
+                        "index": 0,
+                        "class": "android.widget.TextView",
+                        "text": "aaa2024/07/10 22:28",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            65,
+                            525,
+                            512,
+                            579
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.fav.ui.FavoriteIndexUI",
+            "xml": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/11_before_xml_1796196.xml",
+            "img": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/11_before_img_1796310.jpg",
+            "statement": "self.e.text(u\"删除\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 570,
+                    "y": 330,
+                    "w": 90,
+                    "h": 43
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/title",
+                        "resource-id": "com.tencent.mm:id/title",
+                        "index": 1,
+                        "class": "android.widget.TextView",
+                        "text": "Delete",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            570,
+                            330,
+                            660,
+                            373
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.fav.ui.FavoriteIndexUI",
+            "xml": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/12_before_xml_1796431.xml",
+            "img": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/12_before_img_1796556.jpg",
+            "statement": "self.e.text(u\"删除\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 541,
+                    "y": 1067,
+                    "w": 431,
+                    "h": 151
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/mm_alert_ok_btn",
+                        "resource-id": "com.tencent.mm:id/mm_alert_ok_btn",
+                        "index": 2,
+                        "class": "android.widget.Button",
+                        "text": "Delete",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            541,
+                            1067,
+                            972,
+                            1218
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.fav.ui.FavoriteIndexUI",
+            "xml": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/12_after_xml_1796501.xml",
+            "img": "P0.Favorites.FavoritesNote#test_note_insert_current_date/2024071000273316-3091-222748/12_after_img_1796610.jpg"
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "seq_name": "P0.Finder.FinderMusicTopicTest#test_channels_music_monograph",
+    "doc": "feed界面音乐专题入口\n@Author:v_bhkuang\n",
+    "en_sequence": [
+        {
+            "activity": "com.tencent.mm/.ui.conversation.MainUI",
+            "xml": "P0.Finder.FinderMusicTopicTest#test_channels_music_monograph/202407090075911-3099-103404/00_before_xml_2500808.xml",
+            "img": "P0.Finder.FinderMusicTopicTest#test_channels_music_monograph/202407090075911-3099-103404/00_before_img_2500915.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/chatting_item_finder_thumb\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 167,
+                    "y": 371,
+                    "w": 456,
+                    "h": 608
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/chatting_item_finder_thumb",
+                        "resource-id": "com.tencent.mm:id/chatting_item_finder_thumb",
+                        "index": 0,
+                        "class": "android.widget.ImageView",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": false,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            167,
+                            371,
+                            623,
+                            979
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.finder.ui.FinderShareFeedRelUI",
+            "xml": "P0.Finder.FinderMusicTopicTest#test_channels_music_monograph/202407090075911-3099-103404/01_before_xml_2501086.xml",
+            "img": "P0.Finder.FinderMusicTopicTest#test_channels_music_monograph/202407090075911-3099-103404/01_before_img_2501208.jpg",
+            "statement": "self.e.rid(\"com.tencent.mm:id/music_container\").click()",
+            "operation": {
+                "action": "click",
+                "widget": {
+                    "x": 108,
+                    "y": 1482,
+                    "w": 702,
+                    "h": 110
+                },
+                "args": [],
+                "kwargs": {},
+                "x": -1,
+                "y": -1,
+                "locator": {
+                    "type": "attr",
+                    "value": {
+                        "rid": "com.tencent.mm:id/music_container",
+                        "resource-id": "com.tencent.mm:id/music_container",
+                        "index": 1,
+                        "class": "android.widget.LinearLayout",
+                        "text": "",
+                        "enabled": true,
+                        "package": "com.tencent.mm",
+                        "content-desc": "",
+                        "clickable": true,
+                        "long_clickable": false,
+                        "scrollable": false,
+                        "checked": false,
+                        "rect": [
+                            108,
+                            1482,
+                            810,
+                            1592
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "activity": "com.tencent.mm/.plugin.finder.activity.music.ui.FinderMusicTopicUI",
+            "xml": "P0.Finder.FinderMusicTopicTest#test_channels_music_monograph/202407090075911-3099-103404/01_after_xml_2501147.xml",
+            "img": "P0.Finder.FinderMusicTopicTest#test_channels_music_monograph/202407090075911-3099-103404/01_after_img_2501262.jpg"
+        }
+    ]
+}
